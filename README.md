@@ -3,7 +3,7 @@
 
 ---
 
-### 🔥 About Me
+### About Me
 
 🎓 I'm a passionate developer from Bangladesh who loves building scalable, responsive web applications and solving real-world problems through code.  
 🔍 I specialize in Python-Django, React.js, Java, and backend engineering.  
