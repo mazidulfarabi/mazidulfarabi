@@ -1,15 +1,15 @@
-<h1 align="center">Hi 👋, I'm Md. Mazidul Haque Farabi</h1>
-<h3 align="center">🚀 Full Stack Web Developer | Full Stack Django Developer | Full Stack Java Developer </h3>
+<h1 align="center">Hi, I'm Md. Mazidul Haque Farabi</h1>
+<h3 align="center">Full Stack Web Developer | Python-Django | Java-Jsp </h3>
 <h6 align="center">Coding Since 2017</h6>
 
 ---
 
 ### About Me
 
-🎓 I'm a passionate developer from Bangladesh who loves building scalable, responsive web applications and solving real-world problems through code.  
-🔍 I specialize in Python-Django, React.js, Java, and backend engineering.  
-🎯 Currently exploring Cloud Deployments with AWS/GCP, CI/CD pipelines, and DevOps tools.  
-💬 Ask me about anything Django, React, or full-stack architecture.
+I'm a passionate developer from Bangladesh who loves building scalable, responsive web applications and solving real-world problems through code.  
+I specialize in Python-Django, React.js, Java, and backend engineering.  
+Currently exploring Cloud Deployments with AWS/GCP, CI/CD pipelines, and DevOps tools.  
+Ask me about anything Django, React, or full-stack architecture.
 
 ---
 
@@ -48,6 +48,8 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
 ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code)
 ![Cursor AI](https://img.shields.io/badge/-Cursor_AI-000000?style=flat&logo=data:image/svg+xml;base64...)
+![Eclipse](https://img.shields.io/badge/-Eclipse-2C2255?style=flat&logo=eclipse&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/-IntelliJ%20IDEA-000000?style=flat&logo=intellij-idea&logoColor=white)
 
 ---
 
