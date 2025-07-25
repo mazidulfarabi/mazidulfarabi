@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Md. Mazidul Haque Farabi</h1>
-<h3 align="center">🚀 Full Stack Web Developer | Django & React Enthusiast | Open Source Advocate</h3>
+<h3 align="center">🚀 Full Stack Web Developer | Full Stack Django Developer | Full Stack Java Developer </h3>
 
 ---
 
