@@ -58,7 +58,7 @@
 - [**Kormo** – Work From Home, Hire From Home](https://kormo.work)  
   > Django-based job marketplace with modular multi-app structure, user dashboards, and secure subscription tiers.
 
-- [**P&C (People & Culture) – Social Network for Workplaces **](https://thynkzone.eu.org)  
+- [**P&C** (People & Culture) – Social Network for Workplaces](https://thynkzone.eu.org)  
   > Java web app for workplace engagement, featuring social interaction and secure user management.
 
 ---
