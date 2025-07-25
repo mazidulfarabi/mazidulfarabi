@@ -95,5 +95,5 @@
 ---
 
 ### Fun Fact  
-> I write clean, scalable code and enjoy debugging as much as building 🚀  
+> I write clean, scalable code and enjoy debugging as much as building.
 > When I'm not coding, I'm probably mentoring, reading tech blogs, or brainstorming startup ideas.
