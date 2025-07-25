@@ -8,7 +8,7 @@
 
 - I'm a passionate developer who loves building scalable, responsive web applications and solving real-world problems through code.  
 - I specialize in Python-Django, React.js, Java, and backend engineering.  
-- Currently exploring Cloud Deployments with AWS/GCP, CI/CD pipelines, and DevOps tools.  
+- Currently exploring Cloud Deployments with AWS/GCP?OCI, CI/CD pipelines, and DevOps tools.  
 - Ask me about anything Django, React, or full-stack architecture.
 
 ---
