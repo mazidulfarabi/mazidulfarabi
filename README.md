@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Md. Mazidul Haque Farabi</h1>
-<h3 align="center">Full Stack Web Developer | Python-Django | Java-Jsp </h3>
+<h3 align="center">Full Stack Web Developer | Python-Django | Java-JSP </h3>
 <h6 align="center">Coding Since 2017</h6>
 
 ---
