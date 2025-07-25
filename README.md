@@ -30,7 +30,8 @@
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase)
 
-#### 🛢️ Databases  
+#### 🛢️ Databases
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)  
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb)
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite)
 
@@ -51,10 +52,10 @@
 
 ### 💼 Featured Projects
 
-- 🔗 [**Kormo** – Work From Home, Hire From Home](#)  
+- 🔗 [**Kormo** – Work From Home, Hire From Home](https://kormo.work)  
   > Django-based job marketplace with modular multi-app structure, user dashboards, and secure subscription tiers.
 
-- 🔗 [**P&C – People & Culture**](#)  
+- 🔗 [**P&C – People & Culture**](https://thynkzone.eu.org)  
   > Java web app for workplace engagement and social interaction, featuring gamification and secure user management.
 
 ---
@@ -62,7 +63,6 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mazidulfarabi&show_icons=true&theme=react&hide_border=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mazidulfarabi&theme=react&hide_border=true" width="48%" />
 </p>
 
@@ -72,20 +72,12 @@
 
 ---
 
-### 📊 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=mazidulfarabi&theme=react-dark&area=true&hide_border=true" />
-</p>
-
----
-
 ### 🌐 Connect With Me
 
 <p align="left">
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=firefox-browser&logoColor=white" /></a>
+  <a href="mailto:mazidul.farabi@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/mazidulfarabi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://mazidulfarabi.netlify.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=firefox-browser&logoColor=white" /></a>
 </p>
 
 ---
