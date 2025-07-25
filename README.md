@@ -59,7 +59,7 @@
   > Django-based job marketplace with modular multi-app structure, user dashboards, and secure subscription tiers.
 
 - 🔗 [**P&C – People & Culture**](https://thynkzone.eu.org)  
-  > Java web app for workplace engagement and social interaction, featuring gamification and secure user management.
+  > Java web app for workplace engagement, featuring social interaction and secure user management.
 
 ---
 
