@@ -1,16 +1,100 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Md. Mazidul Haque Farabi</h1>
+<h3 align="center">🚀 Full Stack Web Developer | Django & React Enthusiast | Open Source Advocate</h3>
 
-<!--
-**mazidulfarabi/mazidulfarabi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 🔥 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🎓 I'm a passionate developer from Bangladesh who loves building scalable, responsive web applications and solving real-world problems through code.  
+🔍 I specialize in Python-Django, React.js, Java, and backend engineering.  
+🎯 Currently exploring Cloud Deployments with AWS/GCP, CI/CD pipelines, and DevOps tools.  
+💬 Ask me about anything Django, React, or full-stack architecture.
+
+---
+
+### 🛠️ Tech Stack
+
+#### 👨‍💻 Languages  
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
+
+#### 🧰 Frameworks & Libraries  
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase)
+
+#### 🛢️ Databases  
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite)
+
+#### ☁️ Cloud & DevOps  
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws)
+![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat&logo=google-cloud)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat&logo=ubuntu)
+
+#### 💻 Tools  
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
+![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code)
+![Cursor AI](https://img.shields.io/badge/-Cursor_AI-000000?style=flat&logo=data:image/svg+xml;base64...)
+
+---
+
+### 💼 Featured Projects
+
+- 🔗 [**Kormo** – Work From Home, Hire From Home](#)  
+  > Django-based job marketplace with modular multi-app structure, user dashboards, and secure subscription tiers.
+
+- 🔗 [**P&C – People & Culture**](#)  
+  > Java web app for workplace engagement and social interaction, featuring gamification and secure user management.
+
+---
+
+### 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mazidulfarabi&show_icons=true&theme=react&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mazidulfarabi&theme=react&hide_border=true" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazidulfarabi&layout=compact&theme=react&hide_border=true" width="48%" />
+</p>
+
+---
+
+### 📊 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=mazidulfarabi&theme=react-dark&area=true&hide_border=true" />
+</p>
+
+---
+
+### 🌐 Connect With Me
+
+<p align="left">
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=firefox-browser&logoColor=white" /></a>
+</p>
+
+---
+
+### 📟 Visitor Counter  
+![Visitor Count](https://komarev.com/ghpvc/?username=mazidulfarabi&color=blue)
+
+---
+
+### 🧠 Fun Fact  
+> I write clean, scalable code and enjoy debugging as much as building 🚀  
+> When I'm not coding, I'm probably mentoring, reading tech blogs, or brainstorming startup ideas.
