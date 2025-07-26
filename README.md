@@ -373,11 +373,11 @@ const developer = {
 
 <div align="center">
 
-<img src="./P&C App Screenshots/row-1-column-1.webp" alt="P&C Screenshot 1" width="135"/>
-<img src="./P&C App Screenshots/row-1-column-2.webp" alt="P&C Screenshot 2" width="135"/>
-<img src="./P&C App Screenshots/row-1-column-3.webp" alt="P&C Screenshot 3" width="135"/>
-<img src="./P&C App Screenshots/row-1-column-4.webp" alt="P&C Screenshot 4" width="135"/>
-<img src="./P&C App Screenshots/row-1-column-5.webp" alt="P&C Screenshot 5" width="135"/>
+<img src="./P&C App Screenshots/row-1-column-1.webp" alt="P&C Screenshot 1" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-2.webp" alt="P&C Screenshot 2" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-3.webp" alt="P&C Screenshot 3" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-4.webp" alt="P&C Screenshot 4" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-5.webp" alt="P&C Screenshot 5" width="160"/>
 
 </div>
 
