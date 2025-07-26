@@ -649,7 +649,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 ---
 
 <details>
-<summary><strong>Certifications</strong></summary>
+<summary><h2><strong>Certifications</strong></h2></summary>
 
 <br>
 
