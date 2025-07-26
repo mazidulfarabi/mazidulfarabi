@@ -198,6 +198,14 @@ const developer = {
 </details>
 
 <details>
+<summary><strong>Database Schema (DBML)</strong></summary>
+<br>
+<div align="center">
+<img src="./dbml/pnc.png" alt="Database Schema Diagram" width="100%"/>
+</div>
+</details>
+
+<details>
 <summary><strong>Data Structures & Models</strong></summary>
 
 <br>
