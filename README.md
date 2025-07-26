@@ -83,10 +83,13 @@
 
 A comprehensive full-stack workplace social networking platform built for organizational communities. The platform is a substantial, enterprise-level application with:
 
-- 42,500+ lines of code
+- 42,500+ total lines of code
 - 63 JSP pages for different user interfaces
 - 27 Java classes for backend logic
-- 1,700 lines of custom CSS for styling
+- Java Backend: ~4,772 lines
+- JSP Frontend: ~35,000 lines
+- CSS Styling: 1,699 lines
+- JavaScript: ~500 lines
 - 3,272 lines in the main database class alone
 
 Multiple database tables and complex business logic  
