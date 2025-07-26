@@ -174,7 +174,7 @@ const developer = {
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
-<img src="./dbml/kormo.webp" alt="Database Schema Diagram" width="100%"/>
+![Database Schema Diagram](./dbml/kormo.svg)
 </div>
 </details>
 
@@ -411,7 +411,7 @@ It functions as a complete internal social media solution with robust features, 
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
-<img src="./dbml/pnc.webp" alt="Database Schema Diagram" width="100%"/>
+![Database Schema Diagram](./dbml/pnc.svg)
 </div>
 </details>
 
