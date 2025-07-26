@@ -655,172 +655,50 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 <div align="center">
 
-<!-- Navigation -->
-<p>
-<strong>Certificate Navigation:</strong><br>
-<a href="#cert-1">Certificate 1</a> • 
-<a href="#cert-2">Certificate 2</a> • 
-<a href="#cert-3">Certificate 3</a> • 
-<a href="#cert-4">Certificate 4</a> • 
-<a href="#cert-5">Certificate 5</a><br>
-<a href="#cert-6">Certificate 6</a> • 
-<a href="#cert-7">Certificate 7</a> • 
-<a href="#cert-8">Certificate 8</a> • 
-<a href="#cert-9">Certificate 9</a>
-</p>
-
----
-
-<!-- Certificate 1 -->
-<div id="cert-1">
-
-### Certificate 1 of 9
-
-<img src="./cert/1.webp" alt="Certification 1" width="80%"/>
-
-<p>
-<a href="#cert-9">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-2">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 2 -->
-<div id="cert-2">
-
-### Certificate 2 of 9
-
-<img src="./cert/2.webp" alt="Certification 2" width="80%"/>
-
-<p>
-<a href="#cert-1">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-3">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 3 -->
-<div id="cert-3">
-
-### Certificate 3 of 9
-
-<img src="./cert/3.webp" alt="Certification 3" width="80%"/>
-
-<p>
-<a href="#cert-2">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-4">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 4 -->
-<div id="cert-4">
-
-### Certificate 4 of 9
-
-<img src="./cert/4.webp" alt="Certification 4" width="80%"/>
-
-<p>
-<a href="#cert-3">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-5">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 5 -->
-<div id="cert-5">
-
-### Certificate 5 of 9
-
-<img src="./cert/5.webp" alt="Certification 5" width="80%"/>
-
-<p>
-<a href="#cert-4">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-6">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 6 -->
-<div id="cert-6">
-
-### Certificate 6 of 9
-
-<img src="./cert/6.webp" alt="Certification 6" width="80%"/>
-
-<p>
-<a href="#cert-5">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-7">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 7 -->
-<div id="cert-7">
-
-### Certificate 7 of 9
-
-<img src="./cert/7.webp" alt="Certification 7" width="80%"/>
-
-<p>
-<a href="#cert-6">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-8">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 8 -->
-<div id="cert-8">
-
-### Certificate 8 of 9
-
-<img src="./cert/8.webp" alt="Certification 8" width="80%"/>
-
-<p>
-<a href="#cert-7">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-9">Next →</a>
-</p>
-
-</div>
-
----
-
-<!-- Certificate 9 -->
-<div id="cert-9">
-
-### Certificate 9 of 9
-
-<img src="./cert/9.webp" alt="Certification 9" width="80%"/>
-
-<p>
-<a href="#cert-8">← Previous</a> | 
-<a href="#certifications">↑ Top</a> | 
-<a href="#cert-1">Next →</a>
-</p>
-
-</div>
+<table>
+<tr>
+<td align="center">
+<img src="./cert/1.webp" alt="Certification 1" width="250"/>
+<br><strong>Certificate 1</strong>
+</td>
+<td align="center">
+<img src="./cert/2.webp" alt="Certification 2" width="250"/>
+<br><strong>Certificate 2</strong>
+</td>
+<td align="center">
+<img src="./cert/3.webp" alt="Certification 3" width="250"/>
+<br><strong>Certificate 3</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="./cert/4.webp" alt="Certification 4" width="250"/>
+<br><strong>Certificate 4</strong>
+</td>
+<td align="center">
+<img src="./cert/5.webp" alt="Certification 5" width="250"/>
+<br><strong>Certificate 5</strong>
+</td>
+<td align="center">
+<img src="./cert/6.webp" alt="Certification 6" width="250"/>
+<br><strong>Certificate 6</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="./cert/7.webp" alt="Certification 7" width="250"/>
+<br><strong>Certificate 7</strong>
+</td>
+<td align="center">
+<img src="./cert/8.webp" alt="Certification 8" width="250"/>
+<br><strong>Certificate 8</strong>
+</td>
+<td align="center">
+<img src="./cert/9.webp" alt="Certification 9" width="250"/>
+<br><strong>Certificate 9</strong>
+</td>
+</tr>
+</table>
 
 </div>
 
