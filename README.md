@@ -174,7 +174,7 @@ const developer = {
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
-<img src="./dbml/pnc.png" alt="Database Schema Diagram" width="100%"/>
+<img src="./dbml/kormo.png" alt="Database Schema Diagram" width="100%"/>
 </div>
 </details>
 
