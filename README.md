@@ -12,9 +12,9 @@
 
 <br>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=mazidulfarabi&color=0e75b6&style=for-the-badge)](https://github.com/mazidulfarabi)
-[![Years Badge](https://badges.strrl.dev/years/mazidulfarabi?style=for-the-badge&color=blue)](https://github.com/mazidulfarabi)
-[![Repositories](https://badges.strrl.dev/repos/mazidulfarabi?style=for-the-badge&color=green)](https://github.com/mazidulfarabi)
+[![Profile Views](https://komarev.com/ghpvc/?username=mazidulfarabi&color=0e75b6&style=for-the-badge&v=1)](https://github.com/mazidulfarabi)
+[![Years Badge](https://badges.strrl.dev/years/mazidulfarabi?style=for-the-badge&color=blue&v=1)](https://github.com/mazidulfarabi)
+[![Repositories](https://badges.strrl.dev/repos/mazidulfarabi?style=for-the-badge&color=green&v=1)](https://github.com/mazidulfarabi)
 
 </div>
 
