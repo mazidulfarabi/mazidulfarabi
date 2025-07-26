@@ -60,6 +60,42 @@
 
 - [**P&C** (People & Culture) – Social Network for Workplaces](https://thynkzone.eu.org)  
   > Java web app for workplace engagement, featuring social interaction and secure user management.
+  > Project Overview:
+Developed a comprehensive workplace social networking platform with 63 JSP pages, 27 Java classes, and 3,272 lines of core database logic, serving as a complete social media solution for organizational communities.
+Technical Architecture & Implementation:
+Backend Development (Java/JSP):
+Core Database Layer: Implemented 3,272 lines of robust database operations in db.java with 50+ methods handling user authentication, session management, and data persistence
+Security Framework: Built multi-layered security with BCrypt password hashing, SHA-512 encryption, CSRF protection, and secure cookie management
+Authentication System: Developed custom session management with encrypted cookies, user validation, and secure login/logout mechanisms
+Data Management: Created 8+ database tables (registerform, profileinfo, posts, ads, reports, notif, etc.) with complex relationships and dynamic user table creation
+Utility Classes: Implemented 27 specialized Java classes for encryption (encdecry.java), hashing (hasher.java), image processing (imgtype.java), and email functionality (Mailer.java)
+Frontend Development:
+Responsive UI: Built 63 JSP pages with modern, mobile-first design using 1,699 lines of custom CSS with CSS Grid, Flexbox, and CSS Variables
+Interactive Features: Implemented real-time posting, commenting, notifications, and user interactions with jQuery integration
+User Experience: Created dark/light mode toggle, modern navigation, tabbed interfaces, and accessibility-compliant design
+Component Library: Developed reusable UI components including cards, forms, dropdowns, and modal dialogs
+Key Features Implemented:
+User Management: Registration, profile customization, friend/follower system, and privacy controls
+Content System: Post creation (memes, facts, updates), image uploads, commenting, and reaction system
+Gamification: Point-based engagement system with 9 user ranks (Novice to Chief) and achievement tracking
+Social Features: Real-time notifications, search functionality, user discovery, and connection management
+Administrative Tools: Content moderation, user reporting, advertisement management, and analytics
+Security Features: Input validation, XSS prevention, SQL injection protection, and secure file uploads
+Database Design:
+Multi-Database Architecture: Separate databases for user data (thynkzone) and relationships (users)
+Dynamic Schema: User-specific tables created on registration for personalized data management
+Optimized Queries: Prepared statements, connection pooling, and efficient data retrieval patterns
+Data Integrity: Foreign key relationships, transaction management, and data validation
+Technologies Used:
+Backend: Java, JSP, Servlets, JDBC, MySQL, BCrypt, SHA-512
+Frontend: HTML5, CSS3, JavaScript, jQuery, FontAwesome, Google Fonts
+Security: CSRF tokens, encrypted cookies, input sanitization, reCAPTCHA integration
+Deployment: Apache Tomcat, Linux server environment
+Performance & Scalability:
+Implemented connection pooling and prepared statements for database efficiency
+Optimized image processing and file management for user uploads
+Designed responsive layouts for cross-device compatibility
+Built modular architecture for maintainable codebase
 
 ---
 
