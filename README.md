@@ -79,7 +79,7 @@
 - [**P&C** (People & Culture) – Social Network for Workplaces](https://thynkzone.eu.org)  
   > Java web app for workplace engagement, featuring social interaction and secure user management.
 
-## Project Overview
+## Project Overview (P&C)
 
 A comprehensive full-stack workplace social networking platform built for organizational communities. The platform is a substantial, enterprise-level application with:
 
