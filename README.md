@@ -135,11 +135,11 @@ const developer = {
 
 <div align="center">
 
-<img src="./Kormo App Screenshots/row-1-column-1.png" alt="Kormo Screenshot 1" width="180"/>
-<img src="./Kormo App Screenshots/row-1-column-2.png" alt="Kormo Screenshot 2" width="180"/>
-<img src="./Kormo App Screenshots/row-1-column-3.png" alt="Kormo Screenshot 3" width="180"/>
-<img src="./Kormo App Screenshots/row-1-column-4.png" alt="Kormo Screenshot 4" width="180"/>
-<img src="./Kormo App Screenshots/row-1-column-5.png" alt="Kormo Screenshot 5" width="180"/>
+<img src="./Kormo App Screenshots/row-1-column-1.webp" alt="Kormo Screenshot 1" width="135"/>
+<img src="./Kormo App Screenshots/row-1-column-2.webp" alt="Kormo Screenshot 2" width="135"/>
+<img src="./Kormo App Screenshots/row-1-column-3.webp" alt="Kormo Screenshot 3" width="135"/>
+<img src="./Kormo App Screenshots/row-1-column-4.webp" alt="Kormo Screenshot 4" width="135"/>
+<img src="./Kormo App Screenshots/row-1-column-5.webp" alt="Kormo Screenshot 5" width="135"/>
 
 </div>
 
@@ -174,7 +174,7 @@ const developer = {
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
-<img src="./dbml/kormo.png" alt="Database Schema Diagram" width="100%"/>
+<img src="./dbml/kormo.png" alt="Database Schema Diagram" width="50%"/>
 </div>
 </details>
 
@@ -373,11 +373,11 @@ const developer = {
 
 <div align="center">
 
-<img src="./P&C App Screenshots/row-1-column-1.png" alt="P&C Screenshot 1" width="180"/>
-<img src="./P&C App Screenshots/row-1-column-2.png" alt="P&C Screenshot 2" width="180"/>
-<img src="./P&C App Screenshots/row-1-column-3.png" alt="P&C Screenshot 3" width="180"/>
-<img src="./P&C App Screenshots/row-1-column-4.png" alt="P&C Screenshot 4" width="180"/>
-<img src="./P&C App Screenshots/row-1-column-5.png" alt="P&C Screenshot 5" width="180"/>
+<img src="./P&C App Screenshots/row-1-column-1.webp" alt="P&C Screenshot 1" width="135"/>
+<img src="./P&C App Screenshots/row-1-column-2.webp" alt="P&C Screenshot 2" width="135"/>
+<img src="./P&C App Screenshots/row-1-column-3.webp" alt="P&C Screenshot 3" width="135"/>
+<img src="./P&C App Screenshots/row-1-column-4.webp" alt="P&C Screenshot 4" width="135"/>
+<img src="./P&C App Screenshots/row-1-column-5.webp" alt="P&C Screenshot 5" width="135"/>
 
 </div>
 
@@ -403,7 +403,7 @@ A comprehensive full-stack workplace social networking platform built for organi
 
 Multiple database tables and complex business logic
 
-It functions as a complete internal social media solution with robust features, high security, and modern user experience.
+It functions as a complete internal social media solution with robust features, high security, and a modern user experience.
 
 </details>
 
@@ -411,7 +411,7 @@ It functions as a complete internal social media solution with robust features, 
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
-<img src="./dbml/pnc.png" alt="Database Schema Diagram" width="100%"/>
+<img src="./dbml/pnc.png" alt="Database Schema Diagram" width="50%"/>
 </div>
 </details>
 
