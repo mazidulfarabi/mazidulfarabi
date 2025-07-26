@@ -53,6 +53,24 @@
 
 ---
 
+### GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mazidulfarabi&theme=react&hide_border=true" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazidulfarabi&layout=compact&theme=react&hide_border=true" width="48%" />
+</p>
+
+---
+
+### Trophies
+
+![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=dark)
+
+---
+
 ### Featured Projects
 
 - [**Kormo** – Work From Home, Hire From Home](https://kormo.work)  
@@ -60,7 +78,8 @@
 
 - [**P&C** (People & Culture) – Social Network for Workplaces](https://thynkzone.eu.org)  
   > Java web app for workplace engagement, featuring social interaction and secure user management.
-  > ## Project Overview
+
+## Project Overview
 
 A comprehensive full-stack workplace social networking platform built for organizational communities. The platform is a substantial, enterprise-level application with:
 
@@ -292,22 +311,6 @@ Implemented foreign key constraints, transaction management, and thorough data v
 - Batch operations for bulk insert/update efficiency
 
 ---
-
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mazidulfarabi&theme=react&hide_border=true" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazidulfarabi&layout=compact&theme=react&hide_border=true" width="48%" />
-</p>
-
----
-
-### Trophies
-
-![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=dark)
 
 ### Connect With Me
 
