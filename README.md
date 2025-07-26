@@ -135,11 +135,11 @@ const developer = {
 
 <div align="center">
 
-<img src="./Kormo App Screenshots/row-1-column-1.webp" alt="Kormo Screenshot 1" width="135"/>
-<img src="./Kormo App Screenshots/row-1-column-2.webp" alt="Kormo Screenshot 2" width="135"/>
-<img src="./Kormo App Screenshots/row-1-column-3.webp" alt="Kormo Screenshot 3" width="135"/>
-<img src="./Kormo App Screenshots/row-1-column-4.webp" alt="Kormo Screenshot 4" width="135"/>
-<img src="./Kormo App Screenshots/row-1-column-5.webp" alt="Kormo Screenshot 5" width="135"/>
+<img src="./Kormo App Screenshots/row-1-column-1.webp" alt="Kormo Screenshot 1" width="160"/>
+<img src="./Kormo App Screenshots/row-1-column-2.webp" alt="Kormo Screenshot 2" width="160"/>
+<img src="./Kormo App Screenshots/row-1-column-3.webp" alt="Kormo Screenshot 3" width="160"/>
+<img src="./Kormo App Screenshots/row-1-column-4.webp" alt="Kormo Screenshot 4" width="160"/>
+<img src="./Kormo App Screenshots/row-1-column-5.webp" alt="Kormo Screenshot 5" width="160"/>
 
 </div>
 
