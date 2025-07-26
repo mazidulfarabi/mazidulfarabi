@@ -76,6 +76,179 @@
 - [**Kormo** – Work From Home, Hire From Home](https://kormo.work)  
   > Django-based job marketplace with modular multi-app structure, user dashboards, and secure subscription tiers.
 
+## Project Overview
+
+**Total Lines of Code:** 20,430  
+**Total Custom Files:** 185  
+
+| File Type       | Lines of Code | File Count |
+|-----------------|----------------|------------|
+| Python (.py)    | 7,431          | 116 files  |
+| HTML Templates  | 12,808         | 62 files   |
+| CSS (.css)      | 121            | 3 files    |
+| JavaScript (.js)| 70             | 4 files    |
+
+- **Django Backend** with extensive models, views, forms, and business logic  
+- **Dynamic HTML Templates** with complex layouts and conditional rendering  
+- **Minimal Custom Styling** using Bootstrap and Tailwind  
+- **Lightweight JavaScript** to support client-side functionality
+
+---
+
+## 🏗️ Architecture & Technology Stack
+
+### Backend Framework
+- Django 5.2.4 – Main web framework
+- Python – Programming language
+- SQLite – Lightweight database (development mode)
+- Django ORM – ORM for database abstraction
+
+### Frontend Technologies
+- Bootstrap 5.3.0 – CSS framework
+- Tailwind CSS – Utility-first styling
+- Font Awesome 6.7.2 – Icon library
+- Vanilla JavaScript – Lightweight client scripting
+
+### Third-Party Integrations
+- `django-allauth` – Authentication and user management
+- Google OAuth 2.0 – Social login
+- `django-recaptcha` & `django-simple-captcha` – Form protection
+- Pillow – Image handling and validation
+- PyJWT – Token-based authentication
+- Brevo SMTP – Email delivery service
+
+---
+
+## 🗃️ Data Structures & Models
+
+### Core Models
+- **User Management:** `accounts/models.py` – Custom user model, authentication, and profile data  
+- **Job System:** `job/models.py` – Jobs, budgets, deadlines, and skill tags  
+- **Freelancer System:** `freelancer/models.py` – Proposals, ratings, contracts  
+- **Communication:** `conversation/models.py` – Messaging and conversations  
+- **Dashboard:** `dashboard/models.py` – User dashboard metrics and status
+
+---
+
+## 🔍 Algorithms & Data Processing
+
+### Search & Filtering Algorithms
+- Multi-criteria search using Django Q objects  
+- Category, skill, rating, and budget-based filtering  
+- Sorting by rating, date, budget, name, and proposal count  
+- Paginated results (20 per page) with dynamic navigation
+
+### Rating Calculation Algorithm
+- Aggregated multi-criteria review scores  
+- Bi-directional review system (freelancer ↔ client)
+
+### File Processing Algorithms
+- Image size/type/dimension validation  
+- Audio file support and processing  
+- PDF/document upload validation
+
+---
+
+## 🔒 Security Features
+
+### Authentication & Authorization
+- Email-based account activation and password reset  
+- Social authentication (Google OAuth 2.0)  
+- JWT support for secure session handling
+
+### Session & Token Management
+- Secure sessions with expiration  
+- Remember me functionality  
+- CSRF token on every form
+
+### Input Validation
+- File type, size, and dimension validation  
+- Audio format restrictions (MP3, WAV, OGG, M4A)  
+- URL validation with regex and protocol/domain checks  
+- reCAPTCHA and CAPTCHA integrations
+
+### Rate Limiting & Protection
+- Max 5 failed login attempts/day  
+- Account lockout mechanisms  
+- XSS, CSRF, and clickjacking protection
+
+### Data Protection
+- Strong password policies and validators  
+- TLS encryption for email  
+- Secure SMTP and email verification
+
+---
+
+## 🌐 Internationalization & Localization
+
+### Supported Languages
+- English (en)  
+- Russian (ru)  
+- Simplified Chinese (zh-Hans)  
+- French (fr)  
+- Spanish (es)  
+- Bangla (bn)
+
+### Localization Features
+- Timezone support (Asia/Dhaka)  
+- Localized currency/date/time formatting  
+- Translation-ready message system
+
+---
+
+## 📱 User Experience Features
+
+### Real-time Features
+- Message read/unread tracking  
+- Real-time chat updates  
+- Delivery status tracking
+
+### Responsive Design
+- Mobile-first layout  
+- Bootstrap grid + Tailwind utility classes  
+- Progressive enhancement for compatibility
+
+### Performance Optimizations
+- `select_related` query optimization  
+- Pagination for heavy views  
+- Image and static file optimization  
+- CDN integration for external assets
+
+---
+
+## 🧠 Business Logic
+
+### Freelancing Platform Features
+
+**Job Management**
+- Job posting with title, description, deadline, and budget  
+- Budget range: 300–9999 BDT  
+- Skill-tagging and deadline enforcement
+
+**Proposal System**
+- Freelancers submit proposals with cover letters  
+- Clients can shortlist, message, and track proposal status
+
+**Contract Management**
+- Digital contract acceptance system  
+- Payment milestone tracking and status updates
+
+**Payment System**
+- bKash integration with transaction verification  
+- Refunds and platform fee deductions  
+- Secure and transparent fund flow
+
+**Review System**
+- Client and freelancer rating submission  
+- Aggregated scores with multiple criteria
+
+**Subscription Plans**
+- Free, Member, and Pro plans  
+- Feature-based access control  
+- Expiration and renewal handling with payment verification
+
+---
+
 - [**P&C** (People & Culture) – Social Network for Workplaces](https://thynkzone.eu.org)  
   > Java web app for workplace engagement, featuring social interaction and secure user management.
 
