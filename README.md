@@ -116,6 +116,17 @@ const developer = {
 ### **[Kormo – Work From Home, Hire From Home](https://kormo.work)**
 > Django-based job marketplace with modular multi-app structure, user dashboards, and secure subscription tiers.
 
+<div align="center">
+
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://kormo.work)
+[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=co.median.android.kbydjp)
+
+<img src="https://play-lh.googleusercontent.com/F9bQ8ViolBJXHO8bKw3z1y8dKgZqiF5QjKwZ8eqJfxw0uR7RpQV6wK8HKkNlYr1zCQ=w2560-h1440-rw" alt="Kormo App Screenshot 1" width="200"/>
+<img src="https://play-lh.googleusercontent.com/P8QJ2VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="Kormo App Screenshot 2" width="200"/>
+<img src="https://play-lh.googleusercontent.com/R9bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="Kormo App Screenshot 3" width="200"/>
+
+</div>
+
 <details>
 <summary><strong>Project Overview</strong></summary>
 
@@ -320,6 +331,17 @@ const developer = {
 
 ### **[P&C (People & Culture) – Social Network for Workplaces](https://thynkzone.eu.org)**
 > Java web app for workplace engagement, featuring social interaction and secure user management.
+
+<div align="center">
+
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://thynkzone.eu.org)
+[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=io.kodular.detectivemailofficial.Thynkzone)
+
+<img src="https://play-lh.googleusercontent.com/T7bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="P&C App Screenshot 1" width="200"/>
+<img src="https://play-lh.googleusercontent.com/U8bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="P&C App Screenshot 2" width="200"/>
+<img src="https://play-lh.googleusercontent.com/V9bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="P&C App Screenshot 3" width="200"/>
+
+</div>
 
 <details>
 <summary><strong>Project Overview (P&C)</strong></summary>
