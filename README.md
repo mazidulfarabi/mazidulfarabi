@@ -60,42 +60,236 @@
 
 - [**P&C** (People & Culture) – Social Network for Workplaces](https://thynkzone.eu.org)  
   > Java web app for workplace engagement, featuring social interaction and secure user management.
-  > Project Overview:
-Developed a comprehensive workplace social networking platform with 63 JSP pages, 27 Java classes, and 3,272 lines of core database logic, serving as a complete social media solution for organizational communities.
-Technical Architecture & Implementation:
-Backend Development (Java/JSP):
-Core Database Layer: Implemented 3,272 lines of robust database operations in db.java with 50+ methods handling user authentication, session management, and data persistence
-Security Framework: Built multi-layered security with BCrypt password hashing, SHA-512 encryption, CSRF protection, and secure cookie management
-Authentication System: Developed custom session management with encrypted cookies, user validation, and secure login/logout mechanisms
-Data Management: Created 8+ database tables (registerform, profileinfo, posts, ads, reports, notif, etc.) with complex relationships and dynamic user table creation
-Utility Classes: Implemented 27 specialized Java classes for encryption (encdecry.java), hashing (hasher.java), image processing (imgtype.java), and email functionality (Mailer.java)
-Frontend Development:
-Responsive UI: Built 63 JSP pages with modern, mobile-first design using 1,699 lines of custom CSS with CSS Grid, Flexbox, and CSS Variables
-Interactive Features: Implemented real-time posting, commenting, notifications, and user interactions with jQuery integration
-User Experience: Created dark/light mode toggle, modern navigation, tabbed interfaces, and accessibility-compliant design
-Component Library: Developed reusable UI components including cards, forms, dropdowns, and modal dialogs
-Key Features Implemented:
-User Management: Registration, profile customization, friend/follower system, and privacy controls
-Content System: Post creation (memes, facts, updates), image uploads, commenting, and reaction system
-Gamification: Point-based engagement system with 9 user ranks (Novice to Chief) and achievement tracking
-Social Features: Real-time notifications, search functionality, user discovery, and connection management
-Administrative Tools: Content moderation, user reporting, advertisement management, and analytics
-Security Features: Input validation, XSS prevention, SQL injection protection, and secure file uploads
-Database Design:
-Multi-Database Architecture: Separate databases for user data (thynkzone) and relationships (users)
-Dynamic Schema: User-specific tables created on registration for personalized data management
-Optimized Queries: Prepared statements, connection pooling, and efficient data retrieval patterns
-Data Integrity: Foreign key relationships, transaction management, and data validation
-Technologies Used:
-Backend: Java, JSP, Servlets, JDBC, MySQL, BCrypt, SHA-512
-Frontend: HTML5, CSS3, JavaScript, jQuery, FontAwesome, Google Fonts
-Security: CSRF tokens, encrypted cookies, input sanitization, reCAPTCHA integration
-Deployment: Apache Tomcat, Linux server environment
-Performance & Scalability:
-Implemented connection pooling and prepared statements for database efficiency
-Optimized image processing and file management for user uploads
-Designed responsive layouts for cross-device compatibility
-Built modular architecture for maintainable codebase
+  > ## Project Overview
+
+A comprehensive full-stack workplace social networking platform built for organizational communities. The platform is a substantial, enterprise-level application with:
+
+- 42,500+ lines of code
+- 63 JSP pages for different user interfaces
+- 27 Java classes for backend logic
+- 1,700 lines of custom CSS for styling
+- 3,272 lines in the main database class alone
+
+Multiple database tables and complex business logic  
+
+It functions as a complete internal social media solution with robust features, high security, and modern user experience.
+
+---
+
+## Technical Architecture & Implementation
+
+### Backend Development (Java/JSP)
+
+**Core Database Layer**  
+Implemented 3,272+ lines of database operations in `db.java` with 50+ methods handling user authentication, session management, and persistent storage.
+
+**Security Framework**  
+Integrated multi-layered security, including BCrypt password hashing, SHA-512 encryption, CSRF protection, and secure cookie handling.
+
+**Authentication System**  
+Custom session management using encrypted cookies, secure login/logout flow, and role-based user validation.
+
+**Data Management**  
+Designed 8+ normalized tables (`registerform`, `profileinfo`, `posts`, `ads`, `notif`, `reports`, etc.) with complex relational mapping and dynamic user-specific table creation.
+
+**Utility Classes**  
+Built 27 specialized Java classes including:
+- `encdecry.java` for encryption  
+- `hasher.java` for hashing  
+- `imgtype.java` for image validation  
+- `Mailer.java` for email communication
+
+### Frontend Development
+
+**Responsive UI**  
+Developed 63 JSP pages using 1,699+ lines of custom CSS with CSS Grid, Flexbox, and CSS Variables for modern, mobile-first design.
+
+**Interactive Features**  
+Real-time posting, commenting, and notification system with jQuery for dynamic content updates.
+
+**User Experience Enhancements**  
+Dark/light mode toggle, tabbed interfaces, modern navigation, and accessibility-compliant components.
+
+**Component Library**  
+Created reusable UI elements such as cards, forms, dropdowns, and modals.
+
+---
+
+## Key Features
+
+**User Management**  
+Registration, profile editing, friend/follower system, and privacy settings.
+
+**Content System**  
+Post creation (images, text, memes), commenting, reactions, and image uploads.
+
+**Gamification**  
+Engagement-based point system with 9 user ranks (Novice to Chief), achievement tracking.
+
+**Social Features**  
+Real-time notifications, user search/discovery, and connection management.
+
+**Administrative Tools**  
+Content moderation, user reporting system, ad management, and analytics dashboard.
+
+**Security Features**  
+Comprehensive input validation, XSS and SQL injection protection, secure file upload handling.
+
+---
+
+## Database Design
+
+**Multi-Database Architecture**  
+Separated databases for user data (`thynkzone`) and relational data (`users`).
+
+**Dynamic Schema**  
+User-specific tables are generated on registration for personalized data handling.
+
+**Optimized Queries**  
+Used prepared statements, connection pooling, and efficient SQL query patterns.
+
+**Data Integrity**  
+Implemented foreign key constraints, transaction management, and thorough data validation.
+
+---
+
+## Technologies Used
+
+**Backend:** Java, JSP, Servlets, JDBC, MySQL, BCrypt, SHA-512  
+**Frontend:** HTML5, CSS3, JavaScript, jQuery, FontAwesome, Google Fonts  
+**Security:** CSRF tokens, encrypted cookies, input sanitization, reCAPTCHA  
+**Deployment:** Apache Tomcat, Linux server environment
+
+---
+
+## Performance & Scalability
+
+- Database connection pooling and prepared statements for optimal efficiency  
+- Optimized file and image processing during uploads  
+- Responsive layouts for cross-device support  
+- Modular and maintainable architecture for long-term scalability
+
+## Data Structures & Algorithms in the P&C Application
+
+### 1. Data Structures Implemented
+
+**HashSet**  
+- **Purpose:** Prevents duplicates and allows efficient lookup for user connections  
+- **Usage:** Applied in 6+ JSP files for managing user lists, friend requests, and search results  
+- **Example:** `HashSet<String> mylist = new HashSet<String>()`  
+- **Applications:**
+  - User search results deduplication  
+  - Friend/follower list management  
+  - Hidden posts tracking  
+  - Report management
+
+**LinkedHashMap**  
+- **Purpose:** Maintains ordered key-value pairs  
+- **Usage:** Used in `reCaptchaV3.java` and `reCaptchaV2.java` for API request parameters  
+- **Example:** `LinkedHashMap<Object, Object> params = new LinkedHashMap<>()`  
+- **Applications:** Ensures parameter order during HTTP API communication
+
+**StringBuilder**  
+- **Purpose:** Efficient string concatenation and manipulation  
+- **Usage:** Used in multiple classes for building dynamic strings  
+- **Applications:**
+  - Random string generation (`Rancook.java`)  
+  - HTTP request building (`reCaptchaV3.java`)  
+  - Image filename construction
+
+**Array (String[])**  
+- **Purpose:** Fixed-size data structures for returning multiple values  
+- **Usage:** Returning profile details and query results  
+- **Applications:**
+  - User profile info aggregation  
+  - Structured database response handling
+
+---
+
+### 2. Algorithms Implemented
+
+**Hashing Algorithms**
+- **SHA-512:** 15-round hashing for strong password security  
+- **SHA-1:** Lightweight hashing for CSRF tokens and temporary data  
+- **BCrypt:** Salted, secure password hashing  
+- **Custom Salt/Pepper:** Layered hashing using concatenated static/dynamic salts
+
+**Cryptographic Algorithms**
+- **AES Encryption:** 256-bit AES in CBC mode with PKCS5 padding  
+- **PBKDF2:** 35,072 iterations for key derivation  
+- **SecureRandom:** Cryptographically secure random number generation
+
+**String Manipulation Algorithms**
+- Substring parsing  
+- Efficient concatenation with `StringBuilder`  
+- Regex-based pattern matching for input sanitization
+
+**Number Formatting Algorithm**
+- **Logarithmic Scaling:** Implemented in `millionaize.java` for display formatting (e.g., 1.2k, 1.5M)  
+- **Formula:** `exp = log(number) / log(1000)`
+
+**Random Generation Algorithms**
+- 128-character secure random strings  
+- UUID generation for posts and user IDs  
+- Custom character sets for different contexts (e.g., verification tokens)
+
+**Database Query Algorithms**
+- Prepared statement optimization  
+- Iterative result set parsing  
+- JDBC connection pooling
+
+**Image Processing Algorithms**
+- Dynamic image resizing  
+- File type and format detection  
+- Automatic EXIF-based orientation correction
+
+**Search and Filter Algorithms**
+- Deduplicated user search  
+- Content filtering based on privacy settings  
+- Relationship mapping for user connectivity
+
+---
+
+### 3. Algorithmic Complexity
+
+**Time Complexity**
+- `HashSet` operations: O(1) on average for `add()` and `contains()`  
+- String manipulation: O(n) for concatenation and parsing  
+- Database queries: Optimized with indexing and prepared statements  
+- Iterative hashing (SHA-512): O(n)
+
+**Space Complexity**
+- `HashSet`: O(n) for n unique elements  
+- `StringBuilder`: O(n) for n characters  
+- Result sets: Managed using streaming and memory-efficient parsing
+
+---
+
+### 4. Security Algorithms
+
+**Input Validation Algorithms**
+- String length enforcement  
+- Calendar-based date validation  
+- Range checks for numeric input
+
+**Token Generation & Verification**
+- CSRF token: Combines secure random number with hash  
+- Session token: Encrypted, stored in secure cookies  
+- Expiry validation and token authenticity checks
+
+---
+
+### 5. Performance Optimizations
+
+**Caching Strategies**
+- JDBC connection pooling  
+- Efficient `ResultSet` usage  
+- Manual garbage collection and object reuse
+
+**Query Optimization**
+- Use of parameterized prepared statements  
+- Query indexes for fast lookup  
+- Batch operations for bulk insert/update efficiency
 
 ---
 
