@@ -198,14 +198,6 @@ const developer = {
 </details>
 
 <details>
-<summary><strong>Database Schema (DBML)</strong></summary>
-<br>
-<div align="center">
-<img src="./dbml/pnc.png" alt="Database Schema Diagram" width="100%"/>
-</div>
-</details>
-
-<details>
 <summary><strong>Data Structures & Models</strong></summary>
 
 <br>
@@ -405,6 +397,14 @@ Multiple database tables and complex business logic
 
 It functions as a complete internal social media solution with robust features, high security, and modern user experience.
 
+</details>
+
+<details>
+<summary><strong>Database Schema (DBML)</strong></summary>
+<br>
+<div align="center">
+<img src="./dbml/pnc.png" alt="Database Schema Diagram" width="100%"/>
+</div>
 </details>
 
 <details>
