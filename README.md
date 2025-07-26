@@ -659,43 +659,43 @@ Implemented foreign key constraints, transaction management, and thorough data v
 <tr>
 <td align="center">
 <img src="./cert/1.webp" alt="Certification 1" width="250"/>
-<br><strong>Certificate 1</strong>
+<br><strong>Cryptography - Stanford</strong>
 </td>
 <td align="center">
 <img src="./cert/2.webp" alt="Certification 2" width="250"/>
-<br><strong>Certificate 2</strong>
+<br><strong>CS50x - Harvard</strong>
 </td>
 <td align="center">
 <img src="./cert/3.webp" alt="Certification 3" width="250"/>
-<br><strong>Certificate 3</strong>
+<br><strong>Digital Security Essentials</strong>
 </td>
 </tr>
 <tr>
 <td align="center">
 <img src="./cert/4.webp" alt="Certification 4" width="250"/>
-<br><strong>Certificate 4</strong>
+<br><strong>Intro to Cybersecurity</strong>
 </td>
 <td align="center">
 <img src="./cert/5.webp" alt="Certification 5" width="250"/>
-<br><strong>Certificate 5</strong>
+<br><strong>Android Apps with Java</strong>
 </td>
 <td align="center">
 <img src="./cert/6.webp" alt="Certification 6" width="250"/>
-<br><strong>Certificate 6</strong>
+<br><strong>Java</strong>
 </td>
 </tr>
 <tr>
 <td align="center">
 <img src="./cert/7.webp" alt="Certification 7" width="250"/>
-<br><strong>Certificate 7</strong>
+<br><strong>JavaScript</strong>
 </td>
 <td align="center">
 <img src="./cert/8.webp" alt="Certification 8" width="250"/>
-<br><strong>Certificate 8</strong>
+<br><strong>jQuery</strong>
 </td>
 <td align="center">
 <img src="./cert/9.webp" alt="Certification 9" width="250"/>
-<br><strong>Certificate 9</strong>
+<br><strong>Responsive Design</strong>
 </td>
 </tr>
 </table>
