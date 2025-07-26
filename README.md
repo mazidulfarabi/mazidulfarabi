@@ -34,7 +34,7 @@ const developer = {
 };
 ```
 
-> I'm a passionate web and app developer who loves building scalable, responsive web applications and solving real-world problems through code. I specialize in Python-Django, React.js, Java, and backend engineering. Currently exploring Cloud Deployments with AWS/GCP/OCI, CI/CD pipelines, and DevOps tools. Ask me about anything Django, React, or full-stack architecture.
+> I'm a passionate developer who loves building scalable, responsive web applications and solving real-world problems through code. I specialize in Python-Django, React.js, Java, and backend engineering. Currently exploring Cloud Deployments with AWS/GCP/OCI, CI/CD pipelines, and DevOps tools. Ask me about anything Django, React, or full-stack architecture.
 
 ---
 
@@ -120,6 +120,7 @@ const developer = {
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://kormo.work)
 [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=co.median.android.kbydjp)
+[![GitHub Repository](https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thynkzone/Kormo-Freelance)
 
 </div>
 
@@ -349,6 +350,7 @@ const developer = {
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://thynkzone.eu.org)
 [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=io.kodular.detectivemailofficial.Thynkzone)
+[![GitHub Repository](https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thynkzone/PnC-Social)
 
 </div>
 
@@ -630,7 +632,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 <div align="center">
 
-<a href="mailto:mazidul.farabi@outlook.com">
+<a href="mailto:mazidul.farabi@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://linkedin.com/in/mazidulfarabi">
@@ -638,6 +640,9 @@ Implemented foreign key constraints, transaction management, and thorough data v
 </a>
 <a href="https://mazidulfarabi.netlify.app">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://github.com/thynkzone">
+  <img src="https://img.shields.io/badge/Organization-181717?style=for-the-badge&logo=github&logoColor=white" alt="Thynkzone Organization" />
 </a>
 
 </div>
