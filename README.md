@@ -95,7 +95,7 @@
 
 ---
 
-## 🏗️ Architecture & Technology Stack
+## Architecture & Technology Stack
 
 ### Backend Framework
 - Django 5.2.4 – Main web framework
@@ -119,7 +119,7 @@
 
 ---
 
-## 🗃️ Data Structures & Models
+## Data Structures & Models
 
 ### Core Models
 - **User Management:** `accounts/models.py` – Custom user model, authentication, and profile data  
@@ -130,7 +130,7 @@
 
 ---
 
-## 🔍 Algorithms & Data Processing
+## Algorithms & Data Processing
 
 ### Search & Filtering Algorithms
 - Multi-criteria search using Django Q objects  
@@ -149,7 +149,7 @@
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
 ### Authentication & Authorization
 - Email-based account activation and password reset  
@@ -179,7 +179,7 @@
 
 ---
 
-## 🌐 Internationalization & Localization
+## Internationalization & Localization
 
 ### Supported Languages
 - English (en)  
@@ -196,7 +196,7 @@
 
 ---
 
-## 📱 User Experience Features
+## User Experience Features
 
 ### Real-time Features
 - Message read/unread tracking  
@@ -216,7 +216,7 @@
 
 ---
 
-## 🧠 Business Logic
+## Business Logic
 
 ### Freelancing Platform Features
 
