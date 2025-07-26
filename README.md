@@ -123,7 +123,7 @@ const developer = {
 
 </div>
 
-<details>
+<details open>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
@@ -352,7 +352,7 @@ const developer = {
 
 </div>
 
-<details>
+<details open>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
