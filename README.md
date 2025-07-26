@@ -648,6 +648,77 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 ---
 
+<details>
+<summary><strong>Certifications</strong></summary>
+<br>
+<div align="center">
+<!-- Slider Container -->
+<div style="position: relative; max-width: 600px; margin: 0 auto;">
+  <!-- Previous Arrow -->
+<button onclick="changeSlide(-1)" style="position: absolute; left: -30px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; z-index: 10;">‹</button>
+  <!-- Image Container -->
+  <div id="certSlider" style="width: 100%; height: 400px; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img id="certImage" src="./cert/1.webp" alt="Certification 1" style="width: 100%; height: 100%; object-fit: contain; display: block;">
+  </div>
+  <!-- Next Arrow -->
+<button onclick="changeSlide(1)" style="position: absolute; right: -30px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; z-index: 10;">›</button>
+  <!-- Dots Indicator -->
+  <div style="text-align: center; margin-top: 15px;">
+    <span onclick="currentSlide(1)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot active"></span>
+    <span onclick="currentSlide(2)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+    <span onclick="currentSlide(3)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+    <span onclick="currentSlide(4)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+    <span onclick="currentSlide(5)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+    <span onclick="currentSlide(6)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+    <span onclick="currentSlide(7)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+    <span onclick="currentSlide(8)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+    <span onclick="currentSlide(9)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
+  </div>
+</div>
+</div>
+<script>
+let slideIndex = 1;
+
+function changeSlide(n) {
+  showSlide(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlide(slideIndex = n);
+}
+
+function showSlide(n) {
+  let dots = document.getElementsByClassName("dot");
+  
+  if (n > 9) { slideIndex = 1 }
+  if (n < 1) { slideIndex = 9 }
+  
+  document.getElementById("certImage").src = `./cert/${slideIndex}.webp`;
+  document.getElementById("certImage").alt = `Certification ${slideIndex}`;
+  
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].style.backgroundColor = "#bbb";
+  }
+  
+  dots[slideIndex - 1].style.backgroundColor = "#717171";
+}
+
+// Initialize
+showSlide(slideIndex);
+</script>
+<style>
+.dot:hover {
+  background-color: #717171 !important;
+}
+
+button:hover {
+  background: rgba(0,0,0,0.8) !important;
+}
+</style>
+</details>
+
+---
+
 ## **Connect With Me**
 
 <div align="center">
