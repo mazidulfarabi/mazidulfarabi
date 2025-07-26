@@ -650,71 +650,91 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 <details>
 <summary><strong>Certifications</strong></summary>
+
 <br>
+
 <div align="center">
-<!-- Slider Container -->
-<div style="position: relative; max-width: 600px; margin: 0 auto;">
-  <!-- Previous Arrow -->
-<button onclick="changeSlide(-1)" style="position: absolute; left: -30px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; z-index: 10;">‹</button>
-  <!-- Image Container -->
-  <div id="certSlider" style="width: 100%; height: 400px; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <img id="certImage" src="./cert/1.webp" alt="Certification 1" style="width: 100%; height: 100%; object-fit: contain; display: block;">
-  </div>
-  <!-- Next Arrow -->
-<button onclick="changeSlide(1)" style="position: absolute; right: -30px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; z-index: 10;">›</button>
-  <!-- Dots Indicator -->
-  <div style="text-align: center; margin-top: 15px;">
-    <span onclick="currentSlide(1)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot active"></span>
-    <span onclick="currentSlide(2)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-    <span onclick="currentSlide(3)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-    <span onclick="currentSlide(4)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-    <span onclick="currentSlide(5)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-    <span onclick="currentSlide(6)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-    <span onclick="currentSlide(7)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-    <span onclick="currentSlide(8)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-    <span onclick="currentSlide(9)" style="height: 12px; width: 12px; margin: 0 3px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; transition: background-color 0.3s;" class="dot"></span>
-  </div>
+
+<!-- Navigation Links -->
+<div>
+<a href="#cert-1">1</a> • 
+<a href="#cert-2">2</a> • 
+<a href="#cert-3">3</a> • 
+<a href="#cert-4">4</a> • 
+<a href="#cert-5">5</a> • 
+<a href="#cert-6">6</a> • 
+<a href="#cert-7">7</a> • 
+<a href="#cert-8">8</a> • 
+<a href="#cert-9">9</a>
 </div>
+
+<br>
+
+<!-- Certificate 1 -->
+<div id="cert-1">
+<img src="./cert/1.webp" alt="Certification 1" width="600"/>
+<p><strong>Certificate 1 of 9</strong></p>
+<p><a href="#cert-9">← Previous</a> | <a href="#cert-2">Next →</a></p>
 </div>
-<script>
-let slideIndex = 1;
 
-function changeSlide(n) {
-  showSlide(slideIndex += n);
-}
+<!-- Certificate 2 -->
+<div id="cert-2">
+<img src="./cert/2.webp" alt="Certification 2" width="600"/>
+<p><strong>Certificate 2 of 9</strong></p>
+<p><a href="#cert-1">← Previous</a> | <a href="#cert-3">Next →</a></p>
+</div>
 
-function currentSlide(n) {
-  showSlide(slideIndex = n);
-}
+<!-- Certificate 3 -->
+<div id="cert-3">
+<img src="./cert/3.webp" alt="Certification 3" width="600"/>
+<p><strong>Certificate 3 of 9</strong></p>
+<p><a href="#cert-2">← Previous</a> | <a href="#cert-4">Next →</a></p>
+</div>
 
-function showSlide(n) {
-  let dots = document.getElementsByClassName("dot");
-  
-  if (n > 9) { slideIndex = 1 }
-  if (n < 1) { slideIndex = 9 }
-  
-  document.getElementById("certImage").src = `./cert/${slideIndex}.webp`;
-  document.getElementById("certImage").alt = `Certification ${slideIndex}`;
-  
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].style.backgroundColor = "#bbb";
-  }
-  
-  dots[slideIndex - 1].style.backgroundColor = "#717171";
-}
+<!-- Certificate 4 -->
+<div id="cert-4">
+<img src="./cert/4.webp" alt="Certification 4" width="600"/>
+<p><strong>Certificate 4 of 9</strong></p>
+<p><a href="#cert-3">← Previous</a> | <a href="#cert-5">Next →</a></p>
+</div>
 
-// Initialize
-showSlide(slideIndex);
-</script>
-<style>
-.dot:hover {
-  background-color: #717171 !important;
-}
+<!-- Certificate 5 -->
+<div id="cert-5">
+<img src="./cert/5.webp" alt="Certification 5" width="600"/>
+<p><strong>Certificate 5 of 9</strong></p>
+<p><a href="#cert-4">← Previous</a> | <a href="#cert-6">Next →</a></p>
+</div>
 
-button:hover {
-  background: rgba(0,0,0,0.8) !important;
-}
-</style>
+<!-- Certificate 6 -->
+<div id="cert-6">
+<img src="./cert/6.webp" alt="Certification 6" width="600"/>
+<p><strong>Certificate 6 of 9</strong></p>
+<p><a href="#cert-5">← Previous</a> | <a href="#cert-7">Next →</a></p>
+</div>
+
+<!-- Certificate 7 -->
+<div id="cert-7">
+<img src="./cert/7.webp" alt="Certification 7" width="600"/>
+<p><strong>Certificate 7 of 9</strong></p>
+<p><a href="#cert-6">← Previous</a> | <a href="#cert-8">Next →</a></p>
+</div>
+
+<!-- Certificate 8 -->
+<div id="cert-8">
+<img src="./cert/8.webp" alt="Certification 8" width="600"/>
+<p><strong>Certificate 8 of 9</strong></p>
+<p><a href="#cert-7">← Previous</a> | <a href="#cert-9">Next →</a></p>
+</div>
+
+<!-- Certificate 9 -->
+<div id="cert-9">
+<img src="./cert/9.webp" alt="Certification 9" width="600"/>
+<p><strong>Certificate 9 of 9</strong></p>
+<p><a href="#cert-8">← Previous</a> | <a href="#cert-1">Next →</a></p>
+</div>
+
+</div>
+
 </details>
 
 ---
