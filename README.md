@@ -99,7 +99,7 @@ const developer = {
 ---
 
 <details open>
-<summary><strong>Achievement Showcase</strong></h2></summary>
+<summary><h2><strong>Achievement Showcase</strong></h2></summary>
 
 
 <div align="center">
