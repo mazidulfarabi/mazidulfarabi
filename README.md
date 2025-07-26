@@ -98,9 +98,10 @@ const developer = {
 
 ---
 
-### **Achievement Showcase**
-
 <details open>
+<summary><strong>Achievement Showcase</strong></h2></summary>
+
+
 <div align="center">
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&title=Commits,Repositories,Experience&column=3)
