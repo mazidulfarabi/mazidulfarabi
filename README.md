@@ -83,7 +83,7 @@ const developer = {
 
 ---
 
-<details>
+<details open>
 <summary><h2><strong>GitHub Analytics</strong></h2></summary>
 
 <br>
@@ -108,7 +108,7 @@ const developer = {
 
 ---
 
-<details>
+<details open>
 <summary><h2><strong>Featured Projects</strong></h2></summary>
 
 <br>
@@ -121,11 +121,24 @@ const developer = {
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://kormo.work)
 [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=co.median.android.kbydjp)
 
-<img src="https://play-lh.googleusercontent.com/F9bQ8ViolBJXHO8bKw3z1y8dKgZqiF5QjKwZ8eqJfxw0uR7RpQV6wK8HKkNlYr1zCQ=w2560-h1440-rw" alt="Kormo App Screenshot 1" width="200"/>
-<img src="https://play-lh.googleusercontent.com/P8QJ2VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="Kormo App Screenshot 2" width="200"/>
-<img src="https://play-lh.googleusercontent.com/R9bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="Kormo App Screenshot 3" width="200"/>
+</div>
+
+<details>
+<summary><strong>App Screenshots</strong></summary>
+
+<br>
+
+<div align="center">
+
+<img src="./Kormo App Screenshots/row-1-column-1.png" alt="Kormo Screenshot 1" width="180"/>
+<img src="./Kormo App Screenshots/row-1-column-2.png" alt="Kormo Screenshot 2" width="180"/>
+<img src="./Kormo App Screenshots/row-1-column-3.png" alt="Kormo Screenshot 3" width="180"/>
+<img src="./Kormo App Screenshots/row-1-column-4.png" alt="Kormo Screenshot 4" width="180"/>
+<img src="./Kormo App Screenshots/row-1-column-5.png" alt="Kormo Screenshot 5" width="180"/>
 
 </div>
+
+</details>
 
 <details>
 <summary><strong>Project Overview</strong></summary>
@@ -337,11 +350,24 @@ const developer = {
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://thynkzone.eu.org)
 [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=io.kodular.detectivemailofficial.Thynkzone)
 
-<img src="https://play-lh.googleusercontent.com/T7bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="P&C App Screenshot 1" width="200"/>
-<img src="https://play-lh.googleusercontent.com/U8bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="P&C App Screenshot 2" width="200"/>
-<img src="https://play-lh.googleusercontent.com/V9bQ8VxqHN7eKgJxN2Q6RlBzVHoqEoQ5mNjKgFzTr8bWvL9XpY3qR7oK6mQ5Nz2yVw=w2560-h1440-rw" alt="P&C App Screenshot 3" width="200"/>
+</div>
+
+<details>
+<summary><strong>App Screenshots</strong></summary>
+
+<br>
+
+<div align="center">
+
+<img src="./P&C App Screenshots/row-1-column-1.png" alt="P&C Screenshot 1" width="180"/>
+<img src="./P&C App Screenshots/row-1-column-2.png" alt="P&C Screenshot 2" width="180"/>
+<img src="./P&C App Screenshots/row-1-column-3.png" alt="P&C Screenshot 3" width="180"/>
+<img src="./P&C App Screenshots/row-1-column-4.png" alt="P&C Screenshot 4" width="180"/>
+<img src="./P&C App Screenshots/row-1-column-5.png" alt="P&C Screenshot 5" width="180"/>
 
 </div>
+
+</details>
 
 <details>
 <summary><strong>Project Overview (P&C)</strong></summary>
