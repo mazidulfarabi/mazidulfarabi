@@ -100,7 +100,7 @@ const developer = {
 
 <div align="center">
 
-![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=darkhub&no-frame=true&margin-w=15&margin-h=15)
+![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&title=Commits,Repositories,Contributions&column=3)
 
 </div>
 
