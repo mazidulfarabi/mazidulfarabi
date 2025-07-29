@@ -90,7 +90,7 @@ const developer = {
 
 <div align="center">
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mazidulfarabi&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mazidulfarabi&theme=default)
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazidulfarabi&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="48%" />
 
