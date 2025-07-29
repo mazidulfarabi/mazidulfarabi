@@ -92,7 +92,7 @@ const developer = {
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mazidulfarabi&theme=react&hide_border=true&background=0D1117&stroke=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="48%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazidulfarabi&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/demo/?user=mazidulfarabi&theme=react&hide_border=true&background=0D1117&stroke=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="50%" />
 
 </div>
 
@@ -104,7 +104,7 @@ const developer = {
 
 <div align="center">
 
-![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&title=Commits,Repositories,Experience&cache_seconds=86400)
+![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&title=Commits,Repositories,Experience&cache_seconds=60)
 
 </div>
 
