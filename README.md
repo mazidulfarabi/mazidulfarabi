@@ -90,7 +90,7 @@ const developer = {
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mazidulfarabi&theme=react&hide_border=true&background=0D1117&stroke=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="48%" />
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mazidulfarabi&theme=dark&hide_border=true&exclude_days=Fri%2CSat)](https://git.io/streak-stats)
 
 <img src="https://github-readme-streak-stats.herokuapp.com/demo/?user=mazidulfarabi&theme=react&hide_border=true&background=0D1117&stroke=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="50%" />
 
