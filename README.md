@@ -145,7 +145,7 @@ const developer = {
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Project Overview</strong></summary>
 
 <br>
@@ -170,7 +170,7 @@ const developer = {
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
@@ -383,7 +383,7 @@ const developer = {
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Project Overview (P&C)</strong></summary>
 
 <br>
@@ -407,7 +407,7 @@ It functions as a complete internal social media solution with robust features, 
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
