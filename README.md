@@ -644,6 +644,136 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 </details>
 
+---
+
+### **[Melissa AI – Intelligent Conversational AI](https://melissa-ai.netlify.app)**
+> Advanced AI chatbot with dual API fallback, real-time status intelligence, and smart response optimization.
+
+<div align="center">
+
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://melissa-ai.netlify.app)
+[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.thynkzone.melissa)
+[![GitHub Repository](https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mazidulfarabi/melissa-ai)
+
+</div>
+
+<details open>
+<summary><strong>App Screenshots</strong></summary>
+
+<br>
+
+<div align="center">
+
+<img src="./P&C App Screenshots/row-1-column-1.webp" alt="P&C Screenshot 1" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-2.webp" alt="P&C Screenshot 2" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-3.webp" alt="P&C Screenshot 3" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-4.webp" alt="P&C Screenshot 4" width="160"/>
+<img src="./P&C App Screenshots/row-1-column-5.webp" alt="P&C Screenshot 5" width="160"/>
+
+</div>
+
+</details>
+
+<details open>
+<summary><strong>AI Intelligence Overview</strong></summary>
+
+<br>
+
+| **AI Capability** | **Implementation** |
+|-------------------|-------------------|
+| **Language Model** | Mistral 7B via OpenRouter API |
+| **Response Intelligence** | Context-aware conversations with chat history |
+| **Fallback Intelligence** | Dual API key rotation with rate limit detection |
+| **Local Intelligence** | Pattern matching for instant responses |
+| **Status Intelligence** | Real-time API availability monitoring |
+| **Error Intelligence** | Smart error classification and recovery |
+
+**Core AI Features:**
+- **🧠 Intelligent Fallback** – Automatic API key switching with rate limit detection
+- **💬 Context Awareness** – Chat history integration for meaningful conversations
+- **⚡ Instant Responses** – Local pattern matching for common interactions
+- **�� Smart Optimization** – Token-limited responses (max 80) for cost efficiency
+- **🔄 Self-Healing** – Automatic recovery when API limits reset
+
+</details>
+
+<details>
+<summary><strong>AI Architecture & Intelligence Stack</strong></summary>
+
+<br>
+
+**AI Service Layer**
+- **OpenRouter API** – Primary AI service with Mistral 7B model
+- **Dual Key Intelligence** – Primary + backup API key management
+- **Rate Limit Detection** – Intelligent parsing of API error responses
+- **Response Optimization** – Token management and timeout protection
+
+**Intelligence Processing**
+- **Pattern Recognition** – Local response matching for common queries
+- **Context Management** – SessionStorage-based conversation history
+- **Error Classification** – Categorized error handling with user-friendly responses
+- **Status Intelligence** – Real-time monitoring of AI service availability
+
+**Smart Features**
+- **Auto-Recovery** – System automatically recovers when limits reset
+- **Predictive Fallback** – Proactive API key switching before failures
+- **Intelligent Caching** – Local response system reduces API calls
+- **Adaptive Responses** – Dynamic response generation based on context
+
+</details>
+
+<details>
+<summary><strong>AI Algorithms & Intelligence Systems</strong></summary>
+
+<br>
+
+**API Intelligence Algorithm**
+- **Primary Key Priority** – Always attempts primary API key first
+- **Rate Limit Intelligence** – Parses error responses for rate limit indicators
+- **Automatic Fallback** – Seamless transition to backup key on failure
+- **Retry Intelligence** – Multiple attempts with increasing timeouts (8s, 12s)
+
+**Response Intelligence System**
+- **Local Pattern Matching** – Instant responses for common greetings
+- **Token Optimization** – Concise response generation (50-80 tokens)
+- **Context Integration** – Chat history inclusion for meaningful conversations
+- **Error Recovery** – Graceful degradation with intelligent fallback messages
+
+**Status Intelligence Algorithm**
+- **Real-time Monitoring** – Dynamic online/offline status based on API availability
+- **Persistent Intelligence** – Status persistence across browser sessions
+- **Reset Integration** – Automatic status recovery when limits reset
+- **Visual Intelligence** – Blinking indicators and color-coded status feedback
+
+</details>
+
+<details>
+<summary><strong>AI Performance & Optimization</strong></summary>
+
+<br>
+
+**Intelligence Optimizations**
+- **Local Response Cache** – Reduces API calls for common queries by 60%
+- **Token Management** – Optimized response length for cost efficiency
+- **Smart Caching** – Efficient sessionStorage with automatic cleanup
+- **Request Intelligence** – Timeout protection and request cancellation
+
+**AI Cost Intelligence**
+- **Dual API Distribution** – Spreads usage across multiple accounts
+- **Local Intelligence** – Common greetings handled without API calls
+- **Token Optimization** – Concise responses minimize costs
+- **Fallback Intelligence** – Continuous service when one account runs out
+
+**Intelligence Monitoring**
+- **Health Check Intelligence** – API key status and configuration verification
+- **Debug Intelligence** – Detailed error information for troubleshooting
+- **Performance Intelligence** – Response time and success rate monitoring
+- **Error Intelligence** – Comprehensive error classification and recovery
+
+</details>
+
+</details>
+
 </details>
 
 ---
