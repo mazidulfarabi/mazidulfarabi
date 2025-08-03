@@ -117,7 +117,7 @@ const developer = {
 
 <br>
 
-### **[Kormo – Work From Home, Hire From Home](https://kormo.work)**
+### **[Kormo – Freelancing & Remote Jobs Platform](https://kormo.work)**
 > Django-based job marketplace with modular multi-app structure, user dashboards, and secure subscription tiers.
 
 <div align="center">
