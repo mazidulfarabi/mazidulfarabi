@@ -646,7 +646,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 ---
 
-### **[Melissa AI – Intelligent Conversational AI](https://melissa-ai.netlify.app)**
+### **[Melissa – Intelligent Conversational AI](https://melissa-ai.netlify.app)**
 > Advanced AI chatbot with dual API fallback, real-time status intelligence, and smart response optimization.
 
 <div align="center">
@@ -698,7 +698,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 </details>
 
 <details>
-<summary><strong>AI Architecture & Intelligence Stack</strong></summary>
+<summary><strong>Architecture & Intelligence Stack</strong></summary>
 
 <br>
 
@@ -723,7 +723,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 </details>
 
 <details>
-<summary><strong>AI Algorithms & Intelligence Systems</strong></summary>
+<summary><strong>Algorithms & Intelligence Systems</strong></summary>
 
 <br>
 
@@ -748,7 +748,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 </details>
 
 <details>
-<summary><strong>AI Performance & Optimization</strong></summary>
+<summary><strong>Performance & Optimization</strong></summary>
 
 <br>
 
