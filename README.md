@@ -689,11 +689,11 @@ Implemented foreign key constraints, transaction management, and thorough data v
 | **Error Intelligence** | Smart error classification and recovery |
 
 **Core AI Features:**
-- **🧠 Intelligent Fallback** – Automatic API key switching with rate limit detection
-- **💬 Context Awareness** – Chat history integration for meaningful conversations
-- **⚡ Instant Responses** – Local pattern matching for common interactions
-- **�� Smart Optimization** – Token-limited responses (max 80) for cost efficiency
-- **🔄 Self-Healing** – Automatic recovery when API limits reset
+- **Intelligent Fallback** – Automatic API key switching with rate limit detection
+- **Context Awareness** – Chat history integration for meaningful conversations
+- **Instant Responses** – Local pattern matching for common interactions
+- **Smart Optimization** – Token-limited responses (max 80) for cost efficiency
+- **Self-Healing** – Automatic recovery when API limits reset
 
 </details>
 
