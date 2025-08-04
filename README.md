@@ -860,10 +860,10 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 | Skill Path                               | Badge                                                                                      |
 |------------------------------------------|--------------------------------------------------------------------------------------------|
-| AWS Generative AI                        | [<img src="https://images.credly.com/size/110x110/images/4b68a030-53d0-414b-be57-b1837bc3b3e6/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/a0aa7bca-91d3-4d37-8eb9-836c66f47856) |
-| AWS Machine Learning                     | [<img src="https://images.credly.com/size/110x110/images/51984979-f759-49f0-8bb3-5310d364fdbe/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/e32966f9-a1fc-4f30-a29d-9172784e3c8c) |
-| AWS Compute                              | [<img src="https://images.credly.com/size/110x110/images/9358115e-ead7-47c2-91e2-165b6a650a1b/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/542a372d-33a3-4506-9d57-cc9be939ba18) |
-| AWS Cloud Ops                            | [<img src="https://images.credly.com/size/110x110/images/01c3b0d4-a225-483b-a762-460473658c1a/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/4640aea8-3aa6-4eec-b5ae-cd202e2743fc) |
+| AWS Introduction to Generative AI        | [<img src="https://images.credly.com/size/110x110/images/4b68a030-53d0-414b-be57-b1837bc3b3e6/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/a0aa7bca-91d3-4d37-8eb9-836c66f47856) |
+| AWS Machine Learning Foundations         | [<img src="https://images.credly.com/size/110x110/images/51984979-f759-49f0-8bb3-5310d364fdbe/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/e32966f9-a1fc-4f30-a29d-9172784e3c8c) |
+| AWS Getting Started with Compute         | [<img src="https://images.credly.com/size/110x110/images/9358115e-ead7-47c2-91e2-165b6a650a1b/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/542a372d-33a3-4506-9d57-cc9be939ba18) |
+| AWS Getting Started with Cloud Ops       | [<img src="https://images.credly.com/size/110x110/images/01c3b0d4-a225-483b-a762-460473658c1a/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/4640aea8-3aa6-4eec-b5ae-cd202e2743fc) |
 
 </details>
 
