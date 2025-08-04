@@ -904,6 +904,6 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 <div align="center">
 
-**Made with ❤️ by [Mazidul Farabi](https://github.com/mazidulfarabi)**
+**Made with ❤️ and ☕ by [Me](https://github.com/mazidulfarabi)**
 
 </div>
