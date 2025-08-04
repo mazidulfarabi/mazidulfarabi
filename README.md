@@ -787,48 +787,67 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 <table>
 <tr>
-<td align="center">
-<img src="./cert/1.webp" alt="Certification 1" width="250"/>
-<br><strong>Cryptography - Stanford</strong>
-</td>
-<td align="center">
-<img src="./cert/2.webp" alt="Certification 2" width="250"/>
-<br><strong>CS50x - Harvard</strong>
-</td>
-<td align="center">
-<img src="./cert/3.webp" alt="Certification 3" width="250"/>
-<br><strong>Digital Security Essentials</strong>
-</td>
+  <td align="center">
+    <a href="https://www.coursera.org/account/accomplishments/verify/Q48WPHWHNQWM" target="_blank">
+      <img src="./cert/1.webp" alt="Certification 1" width="250"/>
+    </a>
+    <br><strong>Cryptography - Stanford</strong>
+  </td>
+  <td align="center">
+    <a href="https://certificates.cs50.io/3f2b3d69-a6a5-4209-b22f-906f8ad4deba" target="_blank">
+      <img src="./cert/2.webp" alt="Certification 2" width="250"/>
+    </a>
+    <br><strong>CS50x - Harvard</strong>
+  </td>
+  <td align="center">
+    <a href="http://muktopaath.gov.bd/certificate/check/MC-M2715843T2802207L106J" target="_blank">
+      <img src="./cert/3.webp" alt="Certification 3" width="250"/>
+    </a>
+    <br><strong>Digital Security Essentials</strong>
+  </td>
 </tr>
 <tr>
-<td align="center">
-<img src="./cert/4.webp" alt="Certification 4" width="250"/>
-<br><strong>Intro to Cybersecurity</strong>
-</td>
-<td align="center">
-<img src="./cert/5.webp" alt="Certification 5" width="250"/>
-<br><strong>Android Apps with Java</strong>
-</td>
-<td align="center">
-<img src="./cert/6.webp" alt="Certification 6" width="250"/>
-<br><strong>Java</strong>
-</td>
+  <td align="center">
+    <a href="https://www.codecademy.com/profiles/mazidulfarabi/certificates/de0bd5c89521d004ce449a86b0ad3319" target="_blank">
+      <img src="./cert/4.webp" alt="Certification 4" width="250"/>
+    </a>
+    <br><strong>Cybersecurity</strong>
+  </td>
+  <td align="center">
+    <a href="https://www.codecademy.com/profiles/mazidulfarabi/certificates/5e46f39b68800d0011f5b923" target="_blank">
+      <img src="./cert/5.webp" alt="Certification 5" width="250"/>
+    </a>
+    <br><strong>Android Apps with Java</strong>
+  </td>
+  <td align="center">
+    <a href="https://www.codecademy.com/profiles/mazidulfarabi/certificates/d3f89367b558583e361640f778191345" target="_blank">
+      <img src="./cert/6.webp" alt="Certification 6" width="250"/>
+    </a>
+    <br><strong>Java</strong>
+  </td>
 </tr>
 <tr>
-<td align="center">
-<img src="./cert/7.webp" alt="Certification 7" width="250"/>
-<br><strong>JavaScript</strong>
-</td>
-<td align="center">
-<img src="./cert/8.webp" alt="Certification 8" width="250"/>
-<br><strong>jQuery</strong>
-</td>
-<td align="center">
-<img src="./cert/9.webp" alt="Certification 9" width="250"/>
-<br><strong>Responsive Design</strong>
-</td>
+  <td align="center">
+    <a href="https://www.codecademy.com/profiles/mazidulfarabi/certificates/705dcb15de0da4dd9d9fc4f3274b430e" target="_blank">
+      <img src="./cert/7.webp" alt="Certification 7" width="250"/>
+    </a>
+    <br><strong>JavaScript</strong>
+  </td>
+  <td align="center">
+    <a href="https://www.codecademy.com/profiles/mazidulfarabi/certificates/0becf7c1cd2bd715f24331dddd23425a" target="_blank">
+      <img src="./cert/8.webp" alt="Certification 8" width="250"/>
+    </a>
+    <br><strong>jQuery</strong>
+  </td>
+  <td align="center">
+    <a href="https://www.codecademy.com/profiles/mazidulfarabi/certificates/3a62023b0054dc793edc0adecd715fd7" target="_blank">
+      <img src="./cert/9.webp" alt="Certification 9" width="250"/>
+    </a>
+    <br><strong>Responsive Design</strong>
+  </td>
 </tr>
 </table>
+
 
 </div>
 
