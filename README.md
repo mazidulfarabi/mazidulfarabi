@@ -855,7 +855,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 ---
 
-<details>
+<details open>
 <summary><h2><strong>Badges</strong></h2></summary>
 
 | Skill Path                               | Badge                                                                                      |
