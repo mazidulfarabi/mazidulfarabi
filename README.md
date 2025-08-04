@@ -879,9 +879,6 @@ Implemented foreign key constraints, transaction management, and thorough data v
 <a href="https://linkedin.com/in/mazidulfarabi">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://mazidulfarabi.netlify.app">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Portfolio" />
-</a>
 <a href="https://github.com/thynkzone">
   <img src="https://img.shields.io/badge/Organization-181717?style=for-the-badge&logo=github&logoColor=white" alt="Thynkzone Organization" />
 </a>
