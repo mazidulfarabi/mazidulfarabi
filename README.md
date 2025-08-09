@@ -125,6 +125,7 @@ const developer = {
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://kormo.work)
 [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=co.median.android.kbydjp)
 [![GitHub Repository](https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thynkzone/Kormo-Freelance)
+[![Landing Page](https://img.shields.io/badge/Join_Now-006400?style=for-the-badge&logo=sparkpost&logoColor=white)](https://join.kormo.work)
 
 </div>
 
