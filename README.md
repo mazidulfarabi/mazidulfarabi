@@ -179,7 +179,7 @@ const developer = {
 </div>
 </details>
 
-<details>
+<details open>
 <summary><strong>Architecture & Technology Stack</strong></summary>
 
 <div align="center">
@@ -420,7 +420,7 @@ It functions as a complete internal social media solution with robust features, 
 </div>
 </details>
 
-<details>
+<details open>
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
 <div align="center">
