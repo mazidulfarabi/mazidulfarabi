@@ -189,15 +189,15 @@ flowchart LR
     %% Client Layer
     subgraph Client_Layer["Client Layer"]
         direction LR
-        Browser["🖥️ Web Browser"]:::client
+        Browser["Web Browser"]:::client
     end
 
     %% Django Server Layer
     subgraph Django_Server_Layer["Django Server Layer"]
         direction LR
-        WSGI["🚪 WSGI Entrypoint"]:::backend --> Router["🛤️ URL Router"]:::backend
-        Router --> SettingsDev["⚙️ Settings (Dev)"]:::backend
-        Router --> SettingsProd["⚙️ Settings (Prod)"]:::backend
+        WSGI["WSGI Entrypoint"]:::backend --> Router["URL Router"]:::backend
+        Router --> SettingsDev["Settings (Dev)"]:::backend
+        Router --> SettingsProd["Settings (Prod)"]:::backend
     end
 
     %% Apps Layer
@@ -206,82 +206,82 @@ flowchart LR
         
         subgraph Accounts_App["Accounts App"]
             direction TB
-            ACC_Models["📊 models.py"]:::backend
-            ACC_Views["👁️ views.py"]:::backend
-            ACC_Forms["📝 forms.py"]:::backend
-            ACC_Admin["🛡️ admin.py"]:::backend
-            ACC_Utils["🛠️ utils.py"]:::backend
-            ACC_Templates["🎨 templates/accounts"]:::frontend
-            ACC_EmailTemplates["✉️ templates/emails"]:::frontend
+            ACC_Models["models.py"]:::backend
+            ACC_Views["views.py"]:::backend
+            ACC_Forms["forms.py"]:::backend
+            ACC_Admin["admin.py"]:::backend
+            ACC_Utils["utils.py"]:::backend
+            ACC_Templates["templates/accounts"]:::frontend
+            ACC_EmailTemplates["templates/emails"]:::frontend
         end
 
         subgraph Job_App["Job App"]
             direction TB
-            JOB_Models["📊 models.py"]:::backend
-            JOB_Views["👁️ views.py"]:::backend
-            JOB_Forms["📝 forms.py"]:::backend
-            JOB_Admin["🛡️ admin.py"]:::backend
-            JOB_Templates["🎨 templates/job"]:::frontend
+            JOB_Models["models.py"]:::backend
+            JOB_Views["views.py"]:::backend
+            JOB_Forms["forms.py"]:::backend
+            JOB_Admin["admin.py"]:::backend
+            JOB_Templates["templates/job"]:::frontend
         end
 
         subgraph Freelancer_App["Freelancer App"]
             direction TB
-            FL_Models["📊 models.py"]:::backend
-            FL_Views["👁️ views.py"]:::backend
-            FL_Forms["📝 forms.py"]:::backend
-            FL_Admin["🛡️ admin.py"]:::backend
-            FL_Commands["🔄 commands/update_bios.py"]:::backend
-            FL_Templates["🎨 templates/freelancer"]:::frontend
+            FL_Models["models.py"]:::backend
+            FL_Views["views.py"]:::backend
+            FL_Forms["forms.py"]:::backend
+            FL_Admin["admin.py"]:::backend
+            FL_Commands["commands/update_bios.py"]:::backend
+            FL_Templates["templates/freelancer"]:::frontend
         end
 
         subgraph Conversation_App["Conversation App"]
             direction TB
-            CONV_Models["📊 models.py"]:::backend
-            CONV_Views["👁️ views.py"]:::backend
-            CONV_Forms["📝 forms.py"]:::backend
-            CONV_Admin["🛡️ admin.py"]:::backend
-            CONV_Templates["🎨 templates/conversation"]:::frontend
+            CONV_Models["models.py"]:::backend
+            CONV_Views["views.py"]:::backend
+            CONV_Forms["forms.py"]:::backend
+            CONV_Admin["admin.py"]:::backend
+            CONV_Templates["templates/conversation"]:::frontend
         end
 
         subgraph Dashboard_App["Dashboard App"]
             direction TB
-            DBM_Models["📊 models.py"]:::backend
-            DBM_Views["👁️ views.py"]:::backend
-            DBM_Context["🔍 context_processors.py"]:::backend
-            DBM_Templates["🎨 templates/dashboard"]:::frontend
+            DBM_Models["models.py"]:::backend
+            DBM_Views["views.py"]:::backend
+            DBM_Context["context_processors.py"]:::backend
+            DBM_Templates["templates/dashboard"]:::frontend
         end
 
         subgraph Main_Core["Main & Core"]
             direction TB
-            MAIN_Views["👁️ main/views.py"]:::backend
-            MAIN_Middleware["🛡️ main/middleware.py"]:::backend
-            MAIN_Admin["🛡️ main/admin.py"]:::backend
-            CORE_Validators["✅ core/validators.py"]:::backend
+            MAIN_Views["main/views.py"]:::backend
+            MAIN_Middleware["main/middleware.py"]:::backend
+            MAIN_Admin["main/admin.py"]:::backend
+            CORE_Validators["core/validators.py"]:::backend
         end
     end
 
     %% Data Layer
     subgraph Data_Storage["Data Storage"]
         direction LR
-        SQLite["🗄️ SQLite/PostgreSQL"]:::database
-        StaticStore["📁 Static/Media Store"]:::database
-        GlobalTemplates["🎨 Global Templates"]:::frontend
+        SQLite["SQLite/PostgreSQL"]:::database
+        StaticStore["Static/Media Store"]:::database
+        GlobalTemplates["Global Templates"]:::frontend
     end
 
     %% External Services
     subgraph External_Integrations["External Integrations"]
         direction LR
-        SMTP["📧 SMTP (Brevo)"]:::external
-        OAuth["🔑 Google OAuth"]:::external
-        reCAPTCHA["🛡️ reCAPTCHA"]:::external
-        bKash["💳 bKash Gateway"]:::external
-        Cache["⚡ Redis/Memcached"]:::external
-        CDN["🌐 CDN"]:::external
+        SMTP["SMTP (Brevo)"]:::external
+        OAuth["Google OAuth"]:::external
+        reCAPTCHA["reCAPTCHA"]:::external
+        bKash["bKash Gateway"]:::external
+        Cache["Redis/Memcached"]:::external
+        CDN["CDN"]:::external
     end
 
     %% Connections: Client to Server
-    Browser -->|"🌐 HTTP/HTTPS"| Router
-    Router -->|"🔀 Dispatch"| ACC_Views
+    Browser -->|"HTTP/HTTPS"| Router
+    Router -->|"Dispatch"| ACC_Views
     Router --> JOB_Views
     Router --> FL_Views
     Router --> CONV_Views
@@ -289,29 +289,29 @@ flowchart LR
     Router --> MAIN_Views
 
     %% Server to Data
-    ACC_Views -->|"🔍 ORM Queries"| SQLite
-    JOB_Views -->|"🔍 ORM Queries"| SQLite
-    FL_Views -->|"🔍 ORM Queries"| SQLite
-    CONV_Views -->|"🔍 ORM Queries"| SQLite
-    DBM_Views -->|"🔍 ORM Queries"| SQLite
-    MAIN_Views -->|"🔍 ORM Queries"| SQLite
+    ACC_Views -->|"ORM Queries"| SQLite
+    JOB_Views -->|"ORM Queries"| SQLite
+    FL_Views -->|"ORM Queries"| SQLite
+    CONV_Views -->|"ORM Queries"| SQLite
+    DBM_Views -->|"ORM Queries"| SQLite
+    MAIN_Views -->|"ORM Queries"| SQLite
 
     %% Templates & Static Rendering
-    ACC_Views -->|"🖼️ Render"| ACC_Templates
-    JOB_Views -->|"🖼️ Render"| JOB_Templates
-    FL_Views -->|"🖼️ Render"| FL_Templates
-    CONV_Views -->|"🖼️ Render"| CONV_Templates
-    DBM_Views -->|"🖼️ Render"| DBM_Templates
-    MAIN_Views -->|"🖼️ Render"| GlobalTemplates
-    Browser -->|"📥 Fetch Assets"| CDN
+    ACC_Views -->|"Render"| ACC_Templates
+    JOB_Views -->|"Render"| JOB_Templates
+    FL_Views -->|"Render"| FL_Templates
+    CONV_Views -->|"Render"| CONV_Templates
+    DBM_Views -->|"Render"| DBM_Templates
+    MAIN_Views -->|"Render"| GlobalTemplates
+    Browser -->|"Fetch Assets"| CDN
     CDN --> StaticStore
 
     %% External API Interactions
-    ACC_Views -->|"📤 Async Email"| SMTP
-    ACC_Views -.->|"🔑 Auth"| OAuth
-    ACC_Views -.->|"🛡️ Validation"| reCAPTCHA
-    FL_Commands -.->|"💸 Payment"| bKash
-    JOB_Views -.->|"⚡ Cache"| Cache
+    ACC_Views -->|"Async Email"| SMTP
+    ACC_Views -.->|"Auth"| OAuth
+    ACC_Views -.->|"Validation"| reCAPTCHA
+    FL_Commands -.->|"Payment"| bKash
+    JOB_Views -.->|"Cache"| Cache
 
     %% Clickable Links
     click WSGI "https://github.com/thynkzone/kormo-freelance/blob/main/Source/app/wsgi.py" "View WSGI"
@@ -599,45 +599,47 @@ It functions as a complete internal social media solution with robust features, 
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
 ```mermaid
+%%{init: {'theme': 'forest', 'themeVariables': { 'primaryColor': '#D0E7FF', 'secondaryColor': '#D0FFD0', 'tertiaryColor': '#FFE7B3', 'fontFamily': 'Arial' }}}%%
+
 graph TB
     %% Client Browser Layer
-    subgraph "Client Browser"
+    subgraph Client_Browser["Client Browser"]
         direction TB
-        BrowserUI["Browser/UI\n(JSP, HTML, CSS, JS)"]:::frontend
+        BrowserUI["Browser/UI (JSP, HTML, CSS, JS)"]:::frontend
         SessionCookie["Session Cookie/CSRF Token"]:::security
     end
 
     %% Web Container Layer
-    subgraph "Apache Tomcat\n(Web Server & Servlet Container)"
+    subgraph Web_Container["Apache Tomcat (Web Server & Servlet Container)"]
         direction TB
-        WebXML["web.xml\n(Servlet Mappings)"]:::server
-        JSPContainer["JSP Engine\n& Servlet Container"]:::server
+        WebXML["web.xml (Servlet Mappings)"]:::server
+        JSPContainer["JSP Engine & Servlet Container"]:::server
         Manifest["MANIFEST.MF"]:::server
     end
 
     %% Presentation Layer
-    subgraph "Presentation Layer"
+    subgraph Presentation_Layer["Presentation Layer"]
         direction TB
         JSPViews["JSP Pages & Static Assets"]:::frontend
     end
 
     %% Business Logic Layer
-    subgraph "Business Logic Layer\n(Java Utility & Controllers)"
+    subgraph Business_Logic_Layer["Business Logic Layer (Java Utility & Controllers)"]
         direction TB
-        BizLogic["com.thynkzone.jsp Classes\n(Rancook, Rund, af, millionaize, move2…)"]:::server
+        BizLogic["com.thynkzone.jsp Classes (Rancook, Rund, af, millionaize, move2…)"]:::server
     end
 
     %% Data Access Layer
-    subgraph "Data Access Layer"
+    subgraph Data_Access_Layer["Data Access Layer"]
         direction TB
-        DBLayer["db.java\n(JDBC Interface)"]:::data
+        DBLayer["db.java (JDBC Interface)"]:::data
     end
 
     %% Database
     MySQLDB["MySQL Database"]:::data
 
     %% External Services
-    subgraph "External Services"
+    subgraph External_Services["External Services"]
         direction TB
         SMTP["SMTP Mail Server"]:::external
         ReCAPTCHAV2["Google reCAPTCHA V2"]:::external
@@ -646,7 +648,7 @@ graph TB
     end
 
     %% Security Modules
-    subgraph "Security Modules"
+    subgraph Security_Modules["Security Modules"]
         direction TB
         BCrypt["BCrypt (bcrypt.java, bsalt.java)"]:::security
         AES["AES Encryption (encdecry.java)"]:::security
@@ -655,40 +657,40 @@ graph TB
     end
 
     %% Flow Connections
-    BrowserUI -->|HTTPS Request| WebXML
-    BrowserUI -->|Includes Token| SessionCookie
-    WebXML -->|Dispatch| JSPContainer
-    JSPContainer -->|Render| JSPViews
-    JSPViews -->|Calls| BizLogic
-    BizLogic -->|JDBC Calls| DBLayer
-    DBLayer -->|SQL Queries| MySQLDB
-    BizLogic -->|Send Email via SMTP| SMTP
-    BizLogic -->|Verify CAPTCHA| ReCAPTCHAV2
-    BizLogic -->|Verify CAPTCHA| ReCAPTCHAV3
-    JSPViews -->|File Upload| FileStorage
-    WebXML -->|Applies| CSRFFilter
-    BizLogic -->|Uses Hash| BCrypt
-    BizLogic -->|Uses Encryption| AES
-    BizLogic -->|Uses Hash Utilities| Hasher
-    MySQLDB -->|Result Set| DBLayer
-    DBLayer -->|Data| BizLogic
-    BizLogic -->|Response Data| JSPViews
-    JSPViews -->|HTTP Response| BrowserUI
+    BrowserUI -->|"HTTPS Request"| WebXML
+    BrowserUI -->|"Includes Token"| SessionCookie
+    WebXML -->|"Dispatch"| JSPContainer
+    JSPContainer -->|"Render"| JSPViews
+    JSPViews -->|"Calls"| BizLogic
+    BizLogic -->|"JDBC Calls"| DBLayer
+    DBLayer -->|"SQL Queries"| MySQLDB
+    BizLogic -->|"Send Email"| SMTP
+    BizLogic -->|"Verify CAPTCHA"| ReCAPTCHAV2
+    BizLogic -->|"Verify CAPTCHA"| ReCAPTCHAV3
+    JSPViews -->|"File Upload"| FileStorage
+    WebXML -->|"Applies"| CSRFFilter
+    BizLogic -->|"Uses Hash"| BCrypt
+    BizLogic -->|"Uses Encryption"| AES
+    BizLogic -->|"Uses Hash Utilities"| Hasher
+    MySQLDB -->|"Result Set"| DBLayer
+    DBLayer -->|"Data"| BizLogic
+    BizLogic -->|"Response Data"| JSPViews
+    JSPViews -->|"HTTP Response"| BrowserUI
 
     %% Click Events
-    click BrowserUI "https://github.com/thynkzone/pnc-social/tree/main/webapp/"
-    click JSPViews "https://github.com/thynkzone/pnc-social/tree/main/webapp/"
-    click WebXML "https://github.com/thynkzone/pnc-social/blob/main/webapp/WEB-INF/web.xml"
-    click Manifest "https://github.com/thynkzone/pnc-social/blob/main/webapp/META-INF/MANIFEST.MF"
-    click BizLogic "https://github.com/thynkzone/pnc-social/tree/main/java/com/thynkzone/jsp/"
-    click DBLayer "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/db.java"
-    click SMTP "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/Mailer.java"
-    click ReCAPTCHAV2 "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/reCaptchaV2.java"
-    click ReCAPTCHAV3 "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/reCaptchaV3.java"
-    click BCrypt "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/bcrypt.java"
-    click AES "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/encdecry.java"
-    click CSRFFilter "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/cf.java"
-    click Hasher "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/hasher.java"
+    click BrowserUI "https://github.com/thynkzone/pnc-social/tree/main/webapp/" "View Browser UI"
+    click JSPViews "https://github.com/thynkzone/pnc-social/tree/main/webapp/" "View JSP Pages"
+    click WebXML "https://github.com/thynkzone/pnc-social/blob/main/webapp/WEB-INF/web.xml" "View Web XML"
+    click Manifest "https://github.com/thynkzone/pnc-social/blob/main/webapp/META-INF/MANIFEST.MF" "View Manifest"
+    click BizLogic "https://github.com/thynkzone/pnc-social/tree/main/java/com/thynkzone/jsp/" "View Business Logic"
+    click DBLayer "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/db.java" "View DB Layer"
+    click SMTP "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/Mailer.java" "View SMTP Mailer"
+    click ReCAPTCHAV2 "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/reCaptchaV2.java" "View reCAPTCHA V2"
+    click ReCAPTCHAV3 "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/reCaptchaV3.java" "View reCAPTCHA V3"
+    click BCrypt "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/bcrypt.java" "View BCrypt"
+    click AES "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/encdecry.java" "View AES Encryption"
+    click CSRFFilter "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/cf.java" "View CSRF Filter"
+    click Hasher "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/hasher.java" "View Hash Utilities"
 
     %% Styles
     classDef frontend fill:#D0E7FF,stroke:#333,stroke-width:1px
