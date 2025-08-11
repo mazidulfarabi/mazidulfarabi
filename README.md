@@ -588,9 +588,6 @@ graph TB
     classDef security fill:#FFD0D0,stroke:#333,stroke-width:1px
 ```
 
-</details>
-```
-
 <br>
 
 ### **Backend Development (Java/JSP)**
