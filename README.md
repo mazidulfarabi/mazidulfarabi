@@ -185,181 +185,66 @@ const developer = {
 ```mermaid
 flowchart TD
     %% Client Layer
-    subgraph "Client Layer"
-        direction TB
-        Browser["Web Browser"]:::client
-    end
+    Browser["🌐 Web Browser"]:::client
 
-    %% Django Server Layer
-    subgraph "Django Server"
+    %% Django Core
+    subgraph "Django Application"
         direction TB
-        WSGI["WSGI Entrypoint"]:::backend
         Router["URL Router"]:::backend
-        SettingsDev["Settings Loader (Development)"]:::backend
-        SettingsProd["Settings Loader (Production)"]:::backend
-    end
-
-    %% Apps Layer
-    subgraph "Apps Layer"
-        direction TB
         
-        subgraph "accounts"
-            direction TB
-            ACC_Models["models.py"]:::backend
-            ACC_Views["views.py"]:::backend
-            ACC_Forms["forms.py"]:::backend
-            ACC_Admin["admin.py"]:::backend
-            ACC_Utils["utils.py"]:::backend
-            ACC_Templates["templates/accounts"]:::frontend
-            ACC_EmailTemplates["templates/accounts/emails"]:::frontend
+        subgraph "Django Apps"
+            direction LR
+            Accounts["👤 Accounts"]:::app
+            Jobs["💼 Jobs"]:::app
+            Freelancers["👨‍💻 Freelancers"]:::app
+            Conversations["💬 Conversations"]:::app
+            Dashboard["📊 Dashboard"]:::app
         end
-
-        subgraph "job"
-            direction TB
-            JOB_Models["models.py"]:::backend
-            JOB_Views["views.py"]:::backend
-            JOB_Forms["forms.py"]:::backend
-            JOB_Admin["admin.py"]:::backend
-            JOB_Templates["templates/job"]:::frontend
-        end
-
-        subgraph "freelancer"
-            direction TB
-            FL_Models["models.py"]:::backend
-            FL_Views["views.py"]:::backend
-            FL_Forms["forms.py"]:::backend
-            FL_Admin["admin.py"]:::backend
-            FL_Commands["management/commands/update_freelancer_bios.py"]:::backend
-            FL_Templates["templates/freelancer"]:::frontend
-        end
-
-        subgraph "conversation"
-            direction TB
-            CONV_Models["models.py"]:::backend
-            CONV_Views["views.py"]:::backend
-            CONV_Forms["forms.py"]:::backend
-            CONV_Admin["admin.py"]:::backend
-            CONV_Templates["templates/conversation"]:::frontend
-        end
-
-        subgraph "dashboard"
-            direction TB
-            DBM_Models["models.py"]:::backend
-            DBM_Views["views.py"]:::backend
-            DBM_Context["context_processors.py"]:::backend
-            DBM_Templates["templates/dashboard"]:::frontend
-        end
-
-        subgraph "main & core"
-            direction TB
-            MAIN_Views["main/views.py"]:::backend
-            MAIN_Middleware["main/middleware.py"]:::backend
-            MAIN_Admin["main/admin.py"]:::backend
-            CORE_Validators["core/validators.py"]:::backend
-        end
-    end
-
-    %% Data Layer
-    subgraph "Data Stores"
-        direction TB
-        SQLite["SQLite / PostgreSQL"]:::database
-        StaticStore["Static & Media Store"]:::database
-        GlobalTemplates["Global Templates"]:::frontend
+        
+        Database[("🗄️ Database<br/>(SQLite/PostgreSQL)")]:::database
     end
 
     %% External Services
     subgraph "External Services"
         direction TB
-        SMTP["Email SMTP (Brevo)"]:::external
-        OAuth["Google OAuth 2.0"]:::external
-        reCAPTCHA["reCAPTCHA"]:::external
-        bKash["bKash Payment Gateway"]:::external
-        Cache["Redis/Memcached"]:::external
-        CDN["CDN"]:::external
+        Email["📧 Email (Brevo)"]:::external
+        OAuth["🔐 Google OAuth"]:::external
+        Payment["💳 bKash Payment"]:::external
+        Cache["⚡ Cache (Redis)"]:::external
     end
 
-    %% Client to Server
-    Browser -->|"HTTP/HTTPS"| Router
-    Router --> WSGI
-    WSGI --> Router
-    Router -->|"dispatch"| ACC_Views
-    Router --> JOB_Views
-    Router --> FL_Views
-    Router --> CONV_Views
-    Router --> DBM_Views
-    Router --> MAIN_Views
+    %% Static Content
+    CDN["🌍 CDN & Static Files"]:::static
 
-    %% Server to Data
-    ACC_Views -->|"ORM SQL"| SQLite
-    JOB_Views -->|"ORM SQL"| SQLite
-    FL_Views -->|"ORM SQL"| SQLite
-    CONV_Views -->|"ORM SQL"| SQLite
-    DBM_Views -->|"ORM SQL"| SQLite
-    MAIN_Views -->|"ORM SQL"| SQLite
-
-    %% Templates & Static
-    ACC_Views -->|"render"| ACC_Templates
-    JOB_Views -->|"render"| JOB_Templates
-    FL_Views -->|"render"| FL_Templates
-    CONV_Views -->|"render"| CONV_Templates
-    DBM_Views -->|"render"| DBM_Templates
-    MAIN_Views -->|"render"| GlobalTemplates
-    Browser -->|"GET Static"| CDN
-    CDN --> StaticStore
-
-    %% External API Calls
-    ACC_Views -->|"SMTP (async)"| SMTP
-    ACC_Views -.->|"OAuth JSON"| OAuth
-    ACC_Views -.->|"reCAPTCHA JSON"| reCAPTCHA
-    FL_Commands -.->|"bKash API"| bKash
-    JOB_Views -.->|"Cache (optional)"| Cache
-
-    %% Click Events
-    click WSGI "https://github.com/thynkzone/kormo-freelance/blob/main/Source/app/wsgi.py"
-    click Router "https://github.com/thynkzone/kormo-freelance/blob/main/Source/app/urls.py"
-    click SettingsDev "https://github.com/thynkzone/kormo-freelance/blob/main/Source/app/conf/development/settings.py"
-    click SettingsProd "https://github.com/thynkzone/kormo-freelance/blob/main/Source/app/conf/production/settings.py"
-    click ACC_Models "https://github.com/thynkzone/kormo-freelance/blob/main/Source/accounts/models.py"
-    click ACC_Views "https://github.com/thynkzone/kormo-freelance/blob/main/Source/accounts/views.py"
-    click ACC_Forms "https://github.com/thynkzone/kormo-freelance/blob/main/Source/accounts/forms.py"
-    click ACC_Admin "https://github.com/thynkzone/kormo-freelance/blob/main/Source/accounts/admin.py"
-    click ACC_Utils "https://github.com/thynkzone/kormo-freelance/blob/main/Source/accounts/utils.py"
-    click ACC_Templates "https://github.com/thynkzone/kormo-freelance/tree/main/Source/accounts/templates/accounts"
-    click ACC_EmailTemplates "https://github.com/thynkzone/kormo-freelance/tree/main/Source/accounts/templates/accounts/emails"
-    click JOB_Models "https://github.com/thynkzone/kormo-freelance/blob/main/Source/job/models.py"
-    click JOB_Views "https://github.com/thynkzone/kormo-freelance/blob/main/Source/job/views.py"
-    click JOB_Forms "https://github.com/thynkzone/kormo-freelance/blob/main/Source/job/forms.py"
-    click JOB_Admin "https://github.com/thynkzone/kormo-freelance/blob/main/Source/job/admin.py"
-    click JOB_Templates "https://github.com/thynkzone/kormo-freelance/tree/main/Source/job/templates/job"
-    click FL_Models "https://github.com/thynkzone/kormo-freelance/blob/main/Source/freelancer/models.py"
-    click FL_Views "https://github.com/thynkzone/kormo-freelance/blob/main/Source/freelancer/views.py"
-    click FL_Forms "https://github.com/thynkzone/kormo-freelance/blob/main/Source/freelancer/forms.py"
-    click FL_Admin "https://github.com/thynkzone/kormo-freelance/blob/main/Source/freelancer/admin.py"
-    click FL_Commands "https://github.com/thynkzone/kormo-freelance/blob/main/Source/freelancer/management/commands/update_freelancer_bios.py"
-    click FL_Templates "https://github.com/thynkzone/kormo-freelance/tree/main/Source/freelancer/templates/freelancer"
-    click CONV_Models "https://github.com/thynkzone/kormo-freelance/blob/main/Source/conversation/models.py"
-    click CONV_Views "https://github.com/thynkzone/kormo-freelance/blob/main/Source/conversation/views.py"
-    click CONV_Forms "https://github.com/thynkzone/kormo-freelance/blob/main/Source/conversation/forms.py"
-    click CONV_Admin "https://github.com/thynkzone/kormo-freelance/blob/main/Source/conversation/admin.py"
-    click CONV_Templates "https://github.com/thynkzone/kormo-freelance/tree/main/Source/conversation/templates/conversation"
-    click DBM_Models "https://github.com/thynkzone/kormo-freelance/blob/main/Source/dashboard/models.py"
-    click DBM_Views "https://github.com/thynkzone/kormo-freelance/blob/main/Source/dashboard/views.py"
-    click DBM_Context "https://github.com/thynkzone/kormo-freelance/blob/main/Source/dashboard/context_processors.py"
-    click DBM_Templates "https://github.com/thynkzone/kormo-freelance/tree/main/Source/dashboard/templates/dashboard"
-    click MAIN_Views "https://github.com/thynkzone/kormo-freelance/blob/main/Source/main/views.py"
-    click MAIN_Middleware "https://github.com/thynkzone/kormo-freelance/blob/main/Source/main/middleware.py"
-    click MAIN_Admin "https://github.com/thynkzone/kormo-freelance/blob/main/Source/main/admin.py"
-    click CORE_Validators "https://github.com/thynkzone/kormo-freelance/blob/main/Source/core/validators.py"
-    click StaticStore "https://github.com/thynkzone/kormo-freelance/tree/main/Source/content/static"
-    click GlobalTemplates "https://github.com/thynkzone/kormo-freelance/blob/main/Source/content/templates/layouts/default/base.html"
-    click CDN "https://github.com/thynkzone/kormo-freelance/tree/main/Source/content/assets"
+    %% Main Flow
+    Browser -->|HTTP Requests| Router
+    Router --> Accounts
+    Router --> Jobs
+    Router --> Freelancers
+    Router --> Conversations
+    Router --> Dashboard
+    
+    Accounts --> Database
+    Jobs --> Database
+    Freelancers --> Database
+    Conversations --> Database
+    Dashboard --> Database
+    
+    Browser -->|Static Assets| CDN
+    
+    %% External Integrations
+    Accounts -.->|Authentication| OAuth
+    Accounts -.->|Notifications| Email
+    Freelancers -.->|Payments| Payment
+    Jobs -.->|Caching| Cache
 
     %% Styles
-    classDef client fill:#E8F1FF,stroke:#1E3A8A,stroke-width:2px
+    classDef client fill:#E8F1FF,stroke:#1E3A8A,stroke-width:3px
     classDef backend fill:#DBEAFE,stroke:#1E40AF,stroke-width:2px
-    classDef frontend fill:#FEF3C7,stroke:#B45309,stroke-width:2px
-    classDef database fill:#DCFCE7,stroke:#166534,stroke-width:2px
+    classDef app fill:#FEF3C7,stroke:#B45309,stroke-width:2px
+    classDef database fill:#DCFCE7,stroke:#166534,stroke-width:3px
     classDef external fill:#FFEDD5,stroke:#C2410C,stroke-width:2px
+    classDef static fill:#F3E8FF,stroke:#7C3AED,stroke-width:2px
 ```
 
 <br>
