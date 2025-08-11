@@ -424,15 +424,15 @@ graph TB
     %% Client Browser Layer
     subgraph "Client Browser"
         direction TB
-        BrowserUI["Browser/UI<br/>(JSP, HTML, CSS, JS)"]:::frontend
+        BrowserUI["Browser/UI\n(JSP, HTML, CSS, JS)"]:::frontend
         SessionCookie["Session Cookie/CSRF Token"]:::security
     end
 
     %% Web Container Layer
-    subgraph "Apache Tomcat<br/>(Web Server & Servlet Container)"
+    subgraph "Apache Tomcat\n(Web Server & Servlet Container)"
         direction TB
-        WebXML["web.xml<br/>(Servlet Mappings)"]:::server
-        JSPContainer["JSP Engine<br/>& Servlet Container"]:::server
+        WebXML["web.xml\n(Servlet Mappings)"]:::server
+        JSPContainer["JSP Engine\n& Servlet Container"]:::server
         Manifest["MANIFEST.MF"]:::server
     end
 
@@ -443,15 +443,15 @@ graph TB
     end
 
     %% Business Logic Layer
-    subgraph "Business Logic Layer<br/>(Java Utility & Controllers)"
+    subgraph "Business Logic Layer\n(Java Utility & Controllers)"
         direction TB
-        BizLogic["com.thynkzone.jsp Classes<br/>(Rancook, Rund, af, millionaize, move2…)"]:::server
+        BizLogic["com.thynkzone.jsp Classes\n(Rancook, Rund, af, millionaize, move2…)"]:::server
     end
 
     %% Data Access Layer
     subgraph "Data Access Layer"
         direction TB
-        DBLayer["db.java<br/>(JDBC Interface)"]:::data
+        DBLayer["db.java\n(JDBC Interface)"]:::data
     end
 
     %% Database
