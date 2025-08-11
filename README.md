@@ -186,6 +186,7 @@ const developer = {
 ---
 config:
   layout: elk
+  theme: neutral
 ---
 flowchart TD
  subgraph subGraph0["Client Layer"]
