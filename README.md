@@ -172,14 +172,6 @@ const developer = {
 </details>
 
 <details open>
-<summary><strong>Database Schema (DBML)</strong></summary>
-<br>
-<div align="center">
-<img src="./dbml/kormo.svg" alt="Database Schema Diagram" width="100%"/>
-</div>
-</details>
-
-<details open>
 <summary><strong>Architecture & Technology Stack</strong></summary>
 
 <div align="center">
@@ -208,6 +200,14 @@ const developer = {
 - PyJWT – Token-based authentication
 - Brevo SMTP – Email delivery service
 
+</details>
+
+<details open>
+<summary><strong>Database Schema (DBML)</strong></summary>
+<br>
+<div align="center">
+<img src="./dbml/kormo.svg" alt="Database Schema Diagram" width="100%"/>
+</div>
 </details>
 
 <details>
@@ -413,14 +413,6 @@ It functions as a complete internal social media solution with robust features, 
 </details>
 
 <details open>
-<summary><strong>Database Schema (DBML)</strong></summary>
-<br>
-<div align="center">
-<img src="./dbml/pnc.svg" alt="Database Schema Diagram" width="100%"/>
-</div>
-</details>
-
-<details open>
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
 <div align="center">
@@ -464,6 +456,14 @@ Dark/light mode toggle, tabbed interfaces, modern navigation, and accessibility-
 **Component Library**
 Created reusable UI elements such as cards, forms, dropdowns, and modals.
 
+</details>
+
+<details open>
+<summary><strong>Database Schema (DBML)</strong></summary>
+<br>
+<div align="center">
+<img src="./dbml/pnc.svg" alt="Database Schema Diagram" width="100%"/>
+</div>
 </details>
 
 <details>
