@@ -485,6 +485,10 @@ It functions as a complete internal social media solution with robust features, 
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
 ```mermaid
+<details>
+<summary><strong>Technical Architecture & Implementation</strong></summary>
+
+```mermaid
 graph TB
     %% Client Browser Layer
     subgraph "Client Browser"
@@ -582,6 +586,9 @@ graph TB
     classDef data fill:#FFE7B3,stroke:#333,stroke-width:1px
     classDef external fill:#E0E0E0,stroke:#333,stroke-width:1px
     classDef security fill:#FFD0D0,stroke:#333,stroke-width:1px
+```
+
+</details>
 ```
 
 <br>
