@@ -419,6 +419,104 @@ It functions as a complete internal social media solution with robust features, 
 <details>
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
+graph TB
+    %% Client Browser Layer
+    subgraph "Client Browser"
+        direction TB
+        BrowserUI["Browser/UI<br/>(JSP, HTML, CSS, JS)"]:::frontend
+        SessionCookie["Session Cookie/CSRF Token"]:::security
+    end
+
+    %% Web Container Layer
+    subgraph "Apache Tomcat<br/>(Web Server & Servlet Container)"
+        direction TB
+        WebXML["web.xml<br/>(Servlet Mappings)"]:::server
+        JSPContainer["JSP Engine<br/>& Servlet Container"]:::server
+        Manifest["MANIFEST.MF"]:::server
+    end
+
+    %% Presentation Layer
+    subgraph "Presentation Layer"
+        direction TB
+        JSPViews["JSP Pages & Static Assets"]:::frontend
+    end
+
+    %% Business Logic Layer
+    subgraph "Business Logic Layer<br/>(Java Utility & Controllers)"
+        direction TB
+        BizLogic["com.thynkzone.jsp Classes<br/>(Rancook, Rund, af, millionaize, move2…)"]:::server
+    end
+
+    %% Data Access Layer
+    subgraph "Data Access Layer"
+        direction TB
+        DBLayer["db.java<br/>(JDBC Interface)"]:::data
+    end
+
+    %% Database
+    MySQLDB["MySQL Database"]:::data
+
+    %% External Services
+    subgraph "External Services"
+        direction TB
+        SMTP["SMTP Mail Server"]:::external
+        ReCAPTCHAV2["Google reCAPTCHA V2"]:::external
+        ReCAPTCHAV3["Google reCAPTCHA V3"]:::external
+        FileStorage["External File Storage"]:::external
+    end
+
+    %% Security Modules
+    subgraph "Security Modules"
+        direction TB
+        BCrypt["BCrypt (bcrypt.java, bsalt.java)"]:::security
+        AES["AES Encryption (encdecry.java)"]:::security
+        Hasher["Hash Utilities (hasher.java, hasherfast.java)"]:::security
+        CSRFFilter["CSRF Filter (cf.java)"]:::security
+    end
+
+    %% Flow Connections
+    BrowserUI -->|HTTPS Request| WebXML
+    BrowserUI -->|Includes Token| SessionCookie
+    WebXML -->|Dispatch| JSPContainer
+    JSPContainer -->|Render| JSPViews
+    JSPViews -->|Calls| BizLogic
+    BizLogic -->|JDBC Calls| DBLayer
+    DBLayer -->|SQL Queries| MySQLDB
+    BizLogic -->|Send Email via SMTP| SMTP
+    BizLogic -->|Verify CAPTCHA| ReCAPTCHAV2
+    BizLogic -->|Verify CAPTCHA| ReCAPTCHAV3
+    JSPViews -->|File Upload| FileStorage
+    WebXML -->|Applies| CSRFFilter
+    BizLogic -->|Uses Hash| BCrypt
+    BizLogic -->|Uses Encryption| AES
+    BizLogic -->|Uses Hash Utilities| Hasher
+    MySQLDB -->|Result Set| DBLayer
+    DBLayer -->|Data| BizLogic
+    BizLogic -->|Response Data| JSPViews
+    JSPViews -->|HTTP Response| BrowserUI
+
+    %% Click Events
+    click BrowserUI "https://github.com/thynkzone/pnc-social/tree/main/webapp/"
+    click JSPViews "https://github.com/thynkzone/pnc-social/tree/main/webapp/"
+    click WebXML "https://github.com/thynkzone/pnc-social/blob/main/webapp/WEB-INF/web.xml"
+    click Manifest "https://github.com/thynkzone/pnc-social/blob/main/webapp/META-INF/MANIFEST.MF"
+    click BizLogic "https://github.com/thynkzone/pnc-social/tree/main/java/com/thynkzone/jsp/"
+    click DBLayer "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/db.java"
+    click SMTP "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/Mailer.java"
+    click ReCAPTCHAV2 "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/reCaptchaV2.java"
+    click ReCAPTCHAV3 "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/reCaptchaV3.java"
+    click BCrypt "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/bcrypt.java"
+    click AES "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/encdecry.java"
+    click CSRFFilter "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/cf.java"
+    click Hasher "https://github.com/thynkzone/pnc-social/blob/main/java/com/thynkzone/jsp/hasher.java"
+
+    %% Styles
+    classDef frontend fill:#D0E7FF,stroke:#333,stroke-width:1px
+    classDef server fill:#D0FFD0,stroke:#333,stroke-width:1px
+    classDef data fill:#FFE7B3,stroke:#333,stroke-width:1px
+    classDef external fill:#E0E0E0,stroke:#333,stroke-width:1px
+    classDef security fill:#FFD0D0,stroke:#333,stroke-width:1px
+
 <br>
 
 ### **Backend Development (Java/JSP)**
