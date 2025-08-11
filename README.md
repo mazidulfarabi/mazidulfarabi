@@ -424,7 +424,7 @@ It functions as a complete internal social media solution with robust features, 
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
 <div align="center">
-<img src="./mmd/kormo.svg" alt="Architechture Diagram" width="100%"/>
+<img src="./mmd/pnc.svg" alt="Architechture Diagram" width="100%"/>
 </div>
 
 <br>
