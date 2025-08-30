@@ -146,7 +146,10 @@ const developer = {
 
 </details>
 
-# Project Overview
+<details open>
+<summary><strong>Project Overview</strong></summary>
+
+<br>
 
 | **Metric** | **Value** |
 |------------|-----------|
@@ -166,13 +169,16 @@ const developer = {
 - **Minimal Custom Styling** using Bootstrap + Tailwind
 - **Lightweight JavaScript** for client-side interactivity
 
----
+</details>
 
-# Architecture & Technology Stack
+<details open>
+<summary><strong>Architecture & Technology Stack</strong></summary>
 
 <div align="center">
 <img src="./mmd/kormo.svg" alt="Architecture Diagram" width="100%"/>
 </div>
+
+<br>
 
 ### **Backend Framework**
 - Django 5.2.4 – Web framework  
@@ -199,17 +205,20 @@ const developer = {
 - **Django Channels** + Redis – Real-time chat & notifications  
 - **Celery + Redis** – Background task processing (emails, payments, analytics)  
 
----
+</details>
 
-# Database Schema (DBML)
-
+<details open>
+<summary><strong>Database Schema (DBML)</strong></summary>
+<br>
 <div align="center">
 <img src="./dbml/kormo.svg" alt="Database Schema Diagram" width="100%"/>
 </div>
+</details>
 
----
+<details>
+<summary><strong>Data Structures & Models</strong></summary>
 
-# Data Structures & Models
+<br>
 
 ### **Core Models**
 - **User Management:** `accounts/models.py` – Custom user model, authentication, profiles  
@@ -218,9 +227,12 @@ const developer = {
 - **Communication:** `conversation/models.py` – Messaging and conversations  
 - **Dashboard:** `dashboard/models.py` – Metrics and insights  
 
----
+</details>
 
-# Algorithms & Data Processing
+<details>
+<summary><strong>Algorithms & Data Processing</strong></summary>
+
+<br>
 
 ### **Search & Filtering**
 - Multi-criteria search via Django Q objects  
@@ -237,9 +249,12 @@ const developer = {
 - Audio file support (MP3, WAV, OGG, M4A)  
 - PDF/document validation  
 
----
+</details>
 
-# Security Features
+<details>
+<summary><strong>Security Features</strong></summary>
+
+<br>
 
 ### **Authentication & Authorization**
 - Email-based activation & password reset  
@@ -266,9 +281,12 @@ const developer = {
 - TLS-encrypted emails  
 - Secure SMTP integration  
 
----
+</details>
 
-# Internationalization & Localization
+<details>
+<summary><strong>Internationalization & Localization</strong></summary>
+
+<br>
 
 ### **Supported Languages**
 - English (en)  
@@ -283,9 +301,12 @@ const developer = {
 - Localized currency/date/time formatting  
 - Translation-ready system  
 
----
+</details>
 
-# User Experience Features
+<details>
+<summary><strong>User Experience Features</strong></summary>
+
+<br>
 
 ### **Real-time**
 - Chat with read receipts, delivery tracking  
@@ -302,9 +323,12 @@ const developer = {
 - Optimized static/media files  
 - CDN-backed assets  
 
----
+</details>
 
-# Business Logic
+<details>
+<summary><strong>Business Logic</strong></summary>
+
+<br>
 
 ### **Job Management**
 - Post jobs (title, description, deadline, budget)  
