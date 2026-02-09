@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Strategy: Winning Hearts and Minds</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Cultural Strategy: Winning Hearts and Minds</h1>
+            <p class="slide-subtitle">Applying Hofstede's Insights to Vietnamese Business Context</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section full-width">
+                <h2 class="section-title">Cultural Factors Driving Growth</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Cultural Dimension</th>
+                            <th>Implication for Smart Tech</th>
+                            <th>Strategic Action</th>
+                            <th>Expected Impact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Relationship Orientation (Quan He)</strong></td>
+                            <td>Business is personal. Trust is built over dinners, not just boardrooms.</td>
+                            <td>Budget for Socializing: Allocate significant budget for partner entertainment. The Country Manager must be a "connector" who thrives in social settings.</td>
+                            <td>Strong partner loyalty, repeat business, referrals</td>
+                        </tr>
+                        <tr>
+                            <td><strong>High Context Communication</strong></td>
+                            <td>"Yes" does not always mean "Yes." It may mean "I hear you."</td>
+                            <td>Face-to-Face Verification: Critical deals must be closed in person. Do not rely on email. Use intermediaries for difficult conversations to avoid causing "loss of face".</td>
+                            <td>Accurate understanding, reduced miscommunication, stronger agreements</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gift Giving</strong></td>
+                            <td>A ritual of respect and reciprocity.</td>
+                            <td>Strategic Gifting: Present high-quality, culturally appropriate gifts (e.g., premium tea, branded pens) at initial meetings and Tet (Lunar New Year).</td>
+                            <td>Enhanced relationships, goodwill, partnership commitment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Collective Decision Making</strong></td>
+                            <td>Consensus is required. Decisions take time.</td>
+                            <td>Patience: Do not rush the closing. Build consensus with multiple stakeholders within the partner organization, not just the CEO.</td>
+                            <td>Sustainable partnerships, reduced conflict, long-term stability</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Cultural Alignment Strategy</h2>
+                <div class="text-content">
+                    <p><strong>Local Leadership:</strong> Hire Vietnamese Country Manager with deep local networks and cultural understanding. This person must bridge the gap between Smart Tech's Bangladeshi corporate culture and Vietnamese business practices.</p>
+                    <p><strong>Language Investment:</strong> Provide Vietnamese language training for key expatriate staff. All marketing materials and contracts should be bilingual (English-Vietnamese).</p>
+                    <p><strong>Cultural Training:</strong> Comprehensive cultural orientation for all staff, covering business etiquette, communication styles, and relationship-building practices.</p>
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Long-Term Commitment:</strong> Position Smart Tech's entry not as a transactional expansion but as a "10-year commitment" to the Vietnamese market. This aligns with Vietnam's high Long-Term Orientation score and builds trust with partners.
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Cultural Impact Metrics</h2>
+                <div class="chart-container large">
+                    <canvas id="culturalImpactChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 10 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('culturalImpactChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['Relationship Building', 'Communication', 'Trust Building', 'Partnership Retention', 'Market Penetration'],
+                    datasets: [{
+                        label: 'Cultural Strategy Impact',
+                        data: [9, 8, 9, 8, 7],
+                        borderColor: '#2563eb',
+                        backgroundColor: 'rgba(37, 99, 235, 0.2)',
+                    }]
+                },
+                options: {
+                    ...chartOptions,
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 10,
+                            ticks: { color: '#64748b', stepSize: 2 },
+                            grid: { color: '#e2e8f0' },
+                            pointLabels: { color: '#334155', font: { size: 13 } }
+                        }
+                    }
+                }
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

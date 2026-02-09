@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porter's Diamond & Cultural Dimensions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Porter's Diamond & Cultural Dimensions</h1>
+            <p class="slide-subtitle">Strategic Framework Justification for Vietnam Selection</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section">
+                <h2 class="section-title">Porter's Diamond Model</h2>
+                <div class="highlight-box">
+                    <strong>Factor Conditions:</strong> Vietnam possesses a large, cost-effective labor force and some of the lowest data center construction costs in the region ($6.9 million per MW), facilitating the growth of the cloud/server market.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Demand Conditions:</strong> The demand is not just domestic but global. The presence of Samsung, Intel, and Foxconn creates insatiable B2B demand for high-grade IT infrastructure to support their operations. This "derivative demand" is unique to Vietnam.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Related & Supporting Industries:</strong> A dense ecosystem of logistics providers, industrial parks, and component suppliers exists. The rapid development of 5G and cloud infrastructure by local telcos (Viettel, VNPT) supports the distribution of advanced networking gear.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Firm Strategy & Rivalry:</strong> The market is fiercely competitive with players like Digiworld and FPT. However, this rivalry drives efficiency. Smart Tech can enter as a "challenger" brand, offering better financing or specialized SLAs.
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Hofstede's Cultural Dimensions</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Dimension</th>
+                            <th>Vietnam Score</th>
+                            <th>Strategic Implication</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Power Distance (High)</strong></td>
+                            <td>High</td>
+                            <td>Like Bangladesh, hierarchy is respected. Decisions are top-down. Allows for centralized command structure from Dhaka, provided local leadership is given appropriate status symbols.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Collectivism (High)</strong></td>
+                            <td>High</td>
+                            <td>Business is relationship-based (Quan He). Loyalty to the group is paramount. Mirrors Bangladeshi reliance on personal networks. Smart Tech's partner ecosystem strategy will resonate deeply.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Long-Term Orientation (High)</strong></td>
+                            <td>High</td>
+                            <td>Partners value long-term stability over short-term quarterly gains. Smart Tech must position entry not as transactional expansion but as a "10-year commitment" to the Vietnamese market.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Uncertainty Avoidance</strong></td>
+                            <td>Medium</td>
+                            <td>Regulatory clarity through DTI Law 2026 reduces uncertainty. Clear compliance roadmap builds trust.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="chart-container medium" style="margin-top: 15px;">
+                    <canvas id="culturalChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 5 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('culturalChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Power Distance', 'Collectivism', 'Long-Term Orientation', 'Uncertainty Avoidance'],
+                    datasets: [{
+                        label: 'Vietnam',
+                        data: [8, 9, 8, 6],
+                        backgroundColor: '#2563eb',
+                    }, {
+                        label: 'Bangladesh',
+                        data: [8, 9, 7, 7],
+                        backgroundColor: '#10b981',
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

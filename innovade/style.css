@@ -1,0 +1,250 @@
+/* Professional White Background Design System */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-container {
+    width: 100%;
+    height: 100%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.slide-header {
+    margin-bottom: 35px;
+    border-bottom: 4px solid #2563eb;
+    padding-bottom: 15px;
+}
+
+.slide-title {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #1e293b;
+    letter-spacing: -0.5px;
+}
+
+.slide-subtitle {
+    font-size: 22px;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.slide-content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: start;
+    overflow-y: auto;
+}
+
+.content-section {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 28px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.content-section.full-width {
+    grid-column: 1 / -1;
+}
+
+.content-section.half {
+    grid-column: span 1;
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #0f172a;
+    border-left: 4px solid #2563eb;
+    padding-left: 12px;
+}
+
+.chart-container {
+    position: relative;
+    height: 380px;
+    margin-top: 15px;
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.chart-container.large {
+    height: 480px;
+}
+
+.chart-container.medium {
+    height: 320px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.stat-value {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #2563eb;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bullet-list li {
+    padding: 10px 0;
+    padding-left: 28px;
+    position: relative;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #334155;
+}
+
+.bullet-list li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-content {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #475569;
+    margin-top: 12px;
+}
+
+.text-content p {
+    margin-bottom: 12px;
+}
+
+.text-content strong {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.data-table th {
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.data-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.data-table tr:hover {
+    background: #f1f5f9;
+}
+
+.slide-number {
+    position: absolute;
+    bottom: 25px;
+    right: 70px;
+    font-size: 16px;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.highlight-box {
+    background: #eff6ff;
+    border-left: 4px solid #2563eb;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.highlight-box strong {
+    color: #1e40af;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+/* Chart specific styles */
+canvas {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.three-column-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.key-metric {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.key-metric .value {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.key-metric .label {
+    font-size: 16px;
+    opacity: 0.95;
+}

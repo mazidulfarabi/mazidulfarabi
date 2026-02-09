@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Assurance & IP Protection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Vendor Assurance & IP Protection</h1>
+            <p class="slide-subtitle">Combating Grey Market & Maintaining Channel Integrity</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section full-width">
+                <h2 class="section-title">Grey Market Challenge</h2>
+                <div class="text-content">
+                    <p><strong>Problem:</strong> Vietnam has a pervasive grey market (parallel imports) problem. Global vendors are hesitant to appoint new distributors unless they can prove channel integrity. This is a critical barrier that Smart Tech must overcome to secure distribution rights from premium brands like Apple, Cisco, and HP.</p>
+                    <p><strong>Impact:</strong> Grey market goods undermine authorized channel pricing, damage brand reputation, and create warranty/service complications. For Smart Tech, this directly threatens vendor relationships and profitability.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Three-Pillar Anti-Grey Market Strategy</h2>
+                <div class="highlight-box">
+                    <strong>1. Serialization & Tracking:</strong> Implement an ERP system (e.g., SAP/Oracle) that tracks every serial number from import to end-user sale. This creates complete visibility and traceability throughout the supply chain, enabling rapid identification of unauthorized diversions.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>2. Digital Warranty System:</strong> Launch a QR-code based warranty system. Local buyers can scan the box to verify if the product is "Genuine Smart Tech" and activate the warranty. This kills the resale value of grey market goods which lack this warranty activation capability.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>3. Strict KYC (Know Your Channel):</strong> Implement comprehensive partner screening and monitoring. Any partner found diverting stock to unauthorized channels is immediately blacklisted. Regular audits and reporting maintain vendor confidence.
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Vendor Assurance Framework</h2>
+                <ul class="bullet-list">
+                    <li><strong>Channel Policing:</strong> Regular audits of partner inventory and sales records</li>
+                    <li><strong>Geographic Controls:</strong> Restrict sales to authorized territories only</li>
+                    <li><strong>Price Monitoring:</strong> Track pricing across channels to identify unauthorized discounting</li>
+                    <li><strong>Reporting Systems:</strong> Real-time dashboards for vendors showing channel health metrics</li>
+                    <li><strong>Legal Enforcement:</strong> Pursue legal action against grey market operators</li>
+                    <li><strong>Brand Protection:</strong> Anti-counterfeiting measures and authentication technologies</li>
+                </ul>
+                <div class="chart-container medium" style="margin-top: 20px;">
+                    <canvas id="assuranceChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 9 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('assuranceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Serialization', 'Digital Warranty', 'KYC Screening', 'Audits', 'Legal Action'],
+                    datasets: [{
+                        label: 'Effectiveness Score',
+                        data: [9, 8, 7, 8, 6],
+                        backgroundColor: '#2563eb',
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

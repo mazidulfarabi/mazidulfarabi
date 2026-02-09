@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Strategy Overview</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Executive Strategy Overview</h1>
+            <p class="slide-subtitle">Smart Technologies (BD) Ltd. - Strategic Expansion Analysis & Market Entry Roadmap</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section full-width">
+                <h2 class="section-title">Strategic Context & Company Background</h2>
+                <div class="two-column-layout">
+                    <div>
+                        <div class="text-content">
+                            <p><strong>Company Profile:</strong> Smart Technologies (BD) Ltd. is the largest ICT products distribution company in Bangladesh, established in 1998. The company deals with PC hardware, laptops, telecom, networking goods & software business, serving as authorized distributor for over 100 renowned international ICT brands including HP, Dell, Lenovo, Apple, Cisco, and Microsoft.</p>
+                            <p><strong>Regional Presence:</strong> The company maintains regional hubs in UAE, Singapore, China, and Turkey, demonstrating sophisticated cross-border supply chain management capabilities.</p>
+                            <p><strong>Business Model:</strong> Smart Tech operates as a Value-Added Distributor (VAD), not merely a logistics provider. The company powers B2B channels including resellers, retail partners, System Integrators (SIs), Enterprise & Government Suppliers, offering pre-sales technical consultation, managed IT services, and cloud migration support.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="key-metric">
+                            <div class="value">100+</div>
+                            <div class="label">Global ICT Brands</div>
+                        </div>
+                        <div class="stats-grid" style="margin-top: 20px;">
+                            <div class="stat-card">
+                                <div class="stat-value">1998</div>
+                                <div class="stat-label">Established</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">4</div>
+                                <div class="stat-label">Regional Hubs</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">#1</div>
+                                <div class="stat-label">Market Leader BD</div>
+                            </div>
+                        </div>
+                        <div class="highlight-box" style="margin-top: 20px;">
+                            <strong>Strategic Imperative:</strong> Bangladesh's graduation from LDC status in November 2026 creates urgency to diversify revenue base and hedge against post-LDC transition risks. Expansion into high-growth ASEAN economy is essential for sustaining double-digit growth.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Core Competitive Advantages</h2>
+                <div class="highlight-box">
+                    <strong>1. Vendor Assurance & IP Integrity</strong>
+                    Built reputation for strict channel policing and brand protection in markets plagued by grey market diversion. This "clean channel" reputation is critical for negotiating distribution rights.
+                </div>
+                <div class="highlight-box">
+                    <strong>2. Financial & Logistical Sophistication</strong>
+                    Mature capabilities in managing cross-border supply chains, trade financing, and currency hedging through regional hubs in global trade centers.
+                </div>
+                <div class="highlight-box">
+                    <strong>3. Integrated Service Delivery</strong>
+                    Transition from hardware distribution to "Technology Solutions Provider" with pre-sales consultation, managed IT services, and cloud migration support.
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Strategic Objectives</h2>
+                <ul class="bullet-list">
+                    <li>Diversify revenue base by entering high-growth ASEAN economy</li>
+                    <li>Export proven "Smart" business model to new market</li>
+                    <li>Leverage regional manufacturing capabilities</li>
+                    <li>Capitalize on growing digital transformation trends</li>
+                    <li>Arbitrage growth opportunities in faster-growing markets</li>
+                    <li>Currency diversification to offset BDT volatility</li>
+                    <li>Optimize supply chain integration closer to manufacturing sources</li>
+                </ul>
+                <div class="chart-container medium" style="margin-top: 20px;">
+                    <canvas id="objectivesChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 1 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('objectivesChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Revenue Diversification', 'Market Expansion', 'Supply Chain', 'Currency Hedge', 'Growth Arbitrage'],
+                    datasets: [{
+                        label: 'Strategic Priority',
+                        data: [10, 9, 8, 7, 8],
+                        backgroundColor: '#2563eb',
+                    }]
+                },
+                options: {
+                    ...chartOptions,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 10,
+                            ticks: { color: '#64748b' },
+                            grid: { color: '#e2e8f0' }
+                        },
+                        x: {
+                            ticks: { color: '#64748b' },
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

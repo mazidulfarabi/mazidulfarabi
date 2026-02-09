@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation Slides Navigation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px;
+            color: #ffffff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 50px;
+        }
+        
+        .slides-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .slide-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .slide-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .slide-number {
+            font-size: 14px;
+            opacity: 0.7;
+            margin-bottom: 10px;
+        }
+        
+        .slide-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .slide-description {
+            font-size: 14px;
+            opacity: 0.8;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Presentation Slides</h1>
+        <p class="subtitle">Click on any slide to view it in full screen (1920x1080)</p>
+        
+        <div class="slides-grid">
+            <a href="slide-01.html" class="slide-card">
+                <div class="slide-number">Slide 1</div>
+                <div class="slide-title">Market Overview & Trends</div>
+                <div class="slide-description">Comprehensive analysis of current market dynamics and growth trajectory</div>
+            </a>
+            
+            <a href="slide-02.html" class="slide-card">
+                <div class="slide-number">Slide 2</div>
+                <div class="slide-title">Technology Adoption Analysis</div>
+                <div class="slide-description">Emerging technologies and implementation rates across industries</div>
+            </a>
+            
+            <a href="slide-03.html" class="slide-card">
+                <div class="slide-number">Slide 3</div>
+                <div class="slide-title">Competitive Landscape</div>
+                <div class="slide-description">Market share distribution and competitive positioning analysis</div>
+            </a>
+            
+            <a href="slide-04.html" class="slide-card">
+                <div class="slide-number">Slide 4</div>
+                <div class="slide-title">Customer Segmentation</div>
+                <div class="slide-description">Demographic and behavioral analysis of customer segments</div>
+            </a>
+            
+            <a href="slide-05.html" class="slide-card">
+                <div class="slide-number">Slide 5</div>
+                <div class="slide-title">Revenue & Financial Performance</div>
+                <div class="slide-description">Financial metrics and growth analysis over time</div>
+            </a>
+            
+            <a href="slide-06.html" class="slide-card">
+                <div class="slide-number">Slide 6</div>
+                <div class="slide-title">User Engagement Metrics</div>
+                <div class="slide-description">Behavioral patterns and activity analysis</div>
+            </a>
+            
+            <a href="slide-07.html" class="slide-card">
+                <div class="slide-number">Slide 7</div>
+                <div class="slide-title">Geographic Distribution</div>
+                <div class="slide-description">Regional market analysis and penetration rates</div>
+            </a>
+            
+            <a href="slide-08.html" class="slide-card">
+                <div class="slide-number">Slide 8</div>
+                <div class="slide-title">Product Performance Analysis</div>
+                <div class="slide-description">Feature usage and product metrics evaluation</div>
+            </a>
+            
+            <a href="slide-09.html" class="slide-card">
+                <div class="slide-number">Slide 9</div>
+                <div class="slide-title">Operational Efficiency</div>
+                <div class="slide-description">Key performance indicators and operational metrics</div>
+            </a>
+            
+            <a href="slide-10.html" class="slide-card">
+                <div class="slide-number">Slide 10</div>
+                <div class="slide-title">Risk Assessment & Mitigation</div>
+                <div class="slide-description">Risk analysis and management strategies</div>
+            </a>
+            
+            <a href="slide-11.html" class="slide-card">
+                <div class="slide-number">Slide 11</div>
+                <div class="slide-title">Innovation & R&D Investment</div>
+                <div class="slide-description">Research spending and innovation metrics</div>
+            </a>
+            
+            <a href="slide-12.html" class="slide-card">
+                <div class="slide-number">Slide 12</div>
+                <div class="slide-title">Strategic Recommendations</div>
+                <div class="slide-description">Priority actions and expected impact analysis</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

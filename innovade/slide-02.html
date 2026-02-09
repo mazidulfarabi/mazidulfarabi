@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macro-Strategic Market Evaluation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Macro-Strategic Market Evaluation</h1>
+            <p class="slide-subtitle">Comparative Analysis: Malaysia, Philippines, and Vietnam</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section full-width">
+                <h2 class="section-title">Economic Environment Comparison</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Malaysia</th>
+                            <th>Philippines</th>
+                            <th>Vietnam</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>GDP Growth (2025-26)</strong></td>
+                            <td>4.5% - 5.5%</td>
+                            <td>5.0% - 6.0%</td>
+                            <td>7.0% - 8.0%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ICT Market Size</strong></td>
+                            <td>~$28B (Moderate Growth)</td>
+                            <td>~$30B (High Growth, 11% CAGR)</td>
+                            <td>~$166B (Explosive Growth)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Foreign Ownership</strong></td>
+                            <td>Restricted: 30% Bumiputera equity required</td>
+                            <td>Liberalized: 100% allowed, capital hurdles</td>
+                            <td>Open: 100% Foreign Ownership allowed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Institutional Risk</strong></td>
+                            <td>Low (Stable, but protectionist)</td>
+                            <td>High (Bureaucracy, Logistics)</td>
+                            <td>Medium (Legal changes, Compliance)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Primary Driver</strong></td>
+                            <td>Domestic Consumption & Services</td>
+                            <td>BPO & Remittances</td>
+                            <td>Manufacturing FDI & Hardware Exports</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Strategic Fit</strong></td>
+                            <td>Low (Equity barriers reduce control)</td>
+                            <td>Medium (Good demographics, hard logistics)</td>
+                            <td>High (Aligns with hardware strength)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Malaysia: The Efficiency Seeker's Trap</h2>
+                <div class="text-content">
+                    <p><strong>Strengths:</strong> Mature upper-middle-income economy with sophisticated digital infrastructure, ranking second in ASEAN for digital readiness. ICT market valued at USD 28.65 billion driven by cloud computing, cybersecurity, and big data analytics.</p>
+                    <p><strong>Critical Barrier:</strong> The Bumiputera equity requirement. Foreign-owned distributors must divest at least 30% equity to indigenous Malay partners to obtain Wholesale and Retail Trade (WRT) license. This fundamentally conflicts with Smart Technologies' need for operational control and profit retention.</p>
+                    <p><strong>Market Saturation:</strong> Highly consolidated market dominated by entrenched players like Formis (Omesti), Mesiniaga, and global giants. New entrants face fierce price wars.</p>
+                </div>
+                <div class="chart-container medium" style="margin-top: 15px;">
+                    <canvas id="malaysiaChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Philippines: The Consumption Engine</h2>
+                <div class="text-content">
+                    <p><strong>Strengths:</strong> Robust growth narrative with GDP forecast at 5-6%. Economy propelled by domestic consumption and thriving BPO sector, which serves as voracious consumer of ICT hardware. ICT market valued at USD 30.16 billion with CAGR of nearly 11%.</p>
+                    <p><strong>Challenges:</strong> While 100% foreign ownership is permitted, the complexity of Foreign Investment Negative List (FINL) and high costs of doing business due to logistical inefficiencies and energy prices pose significant operational risks.</p>
+                    <p><strong>Institutional Risk:</strong> Ranks lower on Ease of Doing Business index. Bureaucratic inefficiency, port congestion, and corruption remain persistent challenges.</p>
+                </div>
+                <div class="chart-container medium" style="margin-top: 15px;">
+                    <canvas id="philippinesChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 2 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const malCtx = document.getElementById('malaysiaChart').getContext('2d');
+            new Chart(malCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Market Size', 'Infrastructure', 'Regulatory Risk', 'Competition'],
+                    datasets: [{
+                        data: [7, 9, 3, 4],
+                        backgroundColor: ['#2563eb', '#10b981', '#ef4444', '#f59e0b']
+                    }]
+                },
+                options: chartOptions
+            });
+            
+            const philCtx = document.getElementById('philippinesChart').getContext('2d');
+            new Chart(philCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Market Size', 'Growth Rate', 'Regulatory Risk', 'Logistics'],
+                    datasets: [{
+                        data: [8, 9, 5, 3],
+                        backgroundColor: ['#2563eb', '#10b981', '#ef4444', '#f59e0b']
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

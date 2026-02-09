@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam: The Manufacturing Superpower</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Vietnam: The Manufacturing Superpower</h1>
+            <p class="slide-subtitle">Optimal Market Selection for Smart Technologies Expansion</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section">
+                <h2 class="section-title">Economic Environment</h2>
+                <div class="text-content">
+                    <p><strong>GDP Growth:</strong> Vietnam is the clear outlier with GDP growth forecast of 7-8% for 2025-2026, making it one of the fastest-growing economies globally. The country has successfully positioned itself as the primary beneficiary of the "China+1" supply chain diversification strategy.</p>
+                    <p><strong>ICT Market:</strong> The ICT sector is the crown jewel of the economy, generating an estimated revenue of USD 165.9 billion in 2024, driven largely by hardware exports. The hardware segment alone (laptops, servers) accounts for a massive portion of the market, aligning perfectly with Smart Tech's core inventory.</p>
+                    <p><strong>Market Drivers:</strong> The presence of Samsung, Intel, and Foxconn creates insatiable B2B demand for high-grade IT infrastructure to support their operations. This "derivative demand" is unique to Vietnam.</p>
+                </div>
+                <div class="stats-grid" style="margin-top: 20px;">
+                    <div class="stat-card">
+                        <div class="stat-value">$166B</div>
+                        <div class="stat-label">ICT Market Size</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">7-8%</div>
+                        <div class="stat-label">GDP Growth</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Foreign Ownership</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Regulatory Environment</h2>
+                <div class="highlight-box">
+                    <strong>The Open Door:</strong> Vietnam allows 100% foreign ownership in distribution, wholesale, and retail services. Unlike Malaysia, there is no indigenous equity requirement for trading companies.
+                </div>
+                <div class="text-content" style="margin-top: 15px;">
+                    <p><strong>DTI Law 2026:</strong> The new Law on Digital Technology Industry, effective January 1, 2026, provides tax breaks and streamlined procedures for digital technology enterprises. This creates a transparent framework that lowers administrative ambiguity.</p>
+                    <p><strong>PDPL Compliance:</strong> While the new Personal Data Protection Law (PDPL) introduces compliance costs regarding data localization, the overall regulatory trajectory is toward openness and integration.</p>
+                    <p><strong>Trade Relations:</strong> Vietnam and Bangladesh are increasingly viewed as strategic partners. Bilateral trade has surpassed USD 1 billion, and both governments are actively negotiating a Free Trade Agreement (FTA) to double this volume.</p>
+                </div>
+            </div>
+            
+            <div class="content-section full-width">
+                <h2 class="section-title">Channel Ecosystem & Market Opportunity</h2>
+                <div class="two-column-layout">
+                    <div>
+                        <div class="text-content">
+                            <p><strong>Market Structure:</strong> The market is dominated by giants like FPT Synnex, Digiworld (DGW), and Petrosetco (PET). However, the sheer scale of the market—driven by thousands of new FDI factories needing IT infrastructure—creates niches for specialized B2B distributors.</p>
+                            <p><strong>Competitive Advantage:</strong> Smart Tech can enter as a "challenger" brand, offering better financing or specialized SLAs that incumbents may be too complacent to offer. The market rivalry drives efficiency rather than creating insurmountable barriers.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="chart-container large">
+                            <canvas id="vietnamChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 3 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('vietnamChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Market Size', 'Growth Rate', 'Regulatory Openness', 'Strategic Fit', 'Infrastructure'],
+                    datasets: [{
+                        label: 'Vietnam Score',
+                        data: [10, 10, 9, 9, 8],
+                        backgroundColor: '#2563eb',
+                    }, {
+                        label: 'Malaysia Score',
+                        data: [7, 6, 4, 5, 9],
+                        backgroundColor: '#64748b',
+                    }, {
+                        label: 'Philippines Score',
+                        data: [8, 8, 7, 6, 5],
+                        backgroundColor: '#94a3b8',
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

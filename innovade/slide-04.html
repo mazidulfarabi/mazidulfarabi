@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAGE Distance Framework Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">CAGE Distance Framework Analysis</h1>
+            <p class="slide-subtitle">Evaluating Market Entry Barriers from Bangladesh Lens</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section full-width">
+                <h2 class="section-title">CAGE Framework: Distance Analysis</h2>
+                <div class="chart-container large">
+                    <canvas id="cageChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Cultural Distance (Medium-High)</h2>
+                <div class="text-content">
+                    <p><strong>Language Barrier:</strong> Unlike the Philippines (English) or Malaysia (Bahasa/English), Vietnam poses a significant language barrier. Business documentation and negotiation often require Vietnamese.</p>
+                    <p><strong>Religion:</strong> Bangladesh is Muslim-majority; Vietnam is largely secular/Buddhist. This affects marketing nuances but is less critical for B2B hardware distribution.</p>
+                    <p><strong>Implication:</strong> Smart Tech must invest heavily in local country management and translators. However, this is manageable through proper staffing and cultural training programs.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Administrative Distance (Low-Medium)</h2>
+                <div class="text-content">
+                    <p><strong>Political Stability:</strong> Both nations are developing economies with centralized decision-making structures. Vietnam's one-party system offers high policy stability, similar to the continuity valued by Bangladeshi businesses.</p>
+                    <p><strong>Trade Ties:</strong> The active pursuit of an FTA and existing trade volume of $1B+ reduces administrative friction. The DTI Law 2026 creates a transparent framework that lowers administrative ambiguity compared to the Philippines' complex negative lists.</p>
+                    <p><strong>Regulatory Alignment:</strong> 100% foreign ownership allowed in distribution services, unlike Malaysia's Bumiputera requirements.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Geographic Distance (Medium)</h2>
+                <div class="text-content">
+                    <p><strong>Logistics Advantage:</strong> Vietnam is physically closer to the manufacturing hubs of East Asia (China, Taiwan, Korea) than Bangladesh. Importing HP/Dell laptops from China to Vietnam is faster and cheaper than to Dhaka or Manila.</p>
+                    <p><strong>Connectivity:</strong> Direct air links are expanding, improving executive mobility and supply chain efficiency.</p>
+                    <p><strong>Regional Hubs:</strong> Smart Tech's existing Singapore hub can serve as a strategic intermediary for Vietnam operations, optimizing logistics costs.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Economic Distance (Optimal)</h2>
+                <div class="text-content">
+                    <p><strong>Structural Alignment:</strong> Vietnam's economy in 2026 (industrializing, export-led) mirrors the aspirational trajectory of Bangladesh. Smart Tech's experience in serving garment factories and government infrastructure projects in Dhaka is directly transferable to serving electronics factories and smart city projects in Vietnam.</p>
+                    <p><strong>Market Maturity:</strong> Both markets are at similar stages of digital transformation, creating natural demand for Smart Tech's value-added services model.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 4 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('cageChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['Cultural', 'Administrative', 'Geographic', 'Economic'],
+                    datasets: [{
+                        label: 'Vietnam',
+                        data: [6, 8, 7, 9],
+                        borderColor: '#2563eb',
+                        backgroundColor: 'rgba(37, 99, 235, 0.2)',
+                    }, {
+                        label: 'Malaysia',
+                        data: [7, 4, 6, 6],
+                        borderColor: '#64748b',
+                        backgroundColor: 'rgba(100, 116, 139, 0.2)',
+                    }, {
+                        label: 'Philippines',
+                        data: [8, 5, 5, 7],
+                        borderColor: '#94a3b8',
+                        backgroundColor: 'rgba(148, 163, 184, 0.2)',
+                    }]
+                },
+                options: {
+                    ...chartOptions,
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 10,
+                            ticks: { color: '#64748b', stepSize: 2 },
+                            grid: { color: '#e2e8f0' },
+                            pointLabels: { color: '#334155', font: { size: 14 } }
+                        }
+                    }
+                }
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

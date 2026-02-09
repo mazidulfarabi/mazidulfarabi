@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Entry Plan: WFOE Structure</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Market Entry Plan: WFOE Structure</h1>
+            <p class="slide-subtitle">Wholly Foreign-Owned Enterprise Entry Mode for Vietnam</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section full-width">
+                <h2 class="section-title">Entry Mode Selection: WFOE</h2>
+                <div class="two-column-layout">
+                    <div>
+                        <div class="text-content">
+                            <p><strong>Rationale:</strong> Smart Technologies should establish a Wholly Foreign-Owned Enterprise (WFOE) as a Limited Liability Company (LLC). This structure allows Smart Technologies to retain 100% of profits, protect sensitive vendor pricing data, and maintain absolute control over compliance—a non-negotiable requirement for global brands like Cisco and Apple to prevent grey market leakage.</p>
+                            <p><strong>Business Model:</strong> "Market Expansion Services" (MES). Smart Tech should not position itself as a mere "Distributor" but as an MES provider, emulating the successful model of Digiworld (DGW). This involves offering end-to-end services: Importation > Warehousing > Marketing > Sales > After-Sales Service.</p>
+                            <p><strong>Location Strategy:</strong> Ho Chi Minh City (HCMC) is recommended. While Hanoi is the political capital, HCMC is the commercial engine. It hosts the headquarters of major retailers (Mobile World), the largest port network (Cat Lai) for imports, and a vibrant startup ecosystem. A branch office in Hanoi can be opened in Year 2 to service government contracts.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="key-metric">
+                            <div class="value">100%</div>
+                            <div class="label">Ownership & Control</div>
+                        </div>
+                        <div class="stats-grid" style="margin-top: 20px;">
+                            <div class="stat-card">
+                                <div class="stat-value">LLC</div>
+                                <div class="stat-label">Legal Structure</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">HCMC</div>
+                                <div class="stat-label">Primary Location</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">MES</div>
+                                <div class="stat-label">Business Model</div>
+                            </div>
+                        </div>
+                        <div class="highlight-box" style="margin-top: 20px;">
+                            <strong>Key Advantages:</strong>
+                            <ul style="margin-top: 10px; padding-left: 20px;">
+                                <li>Full profit retention</li>
+                                <li>Vendor data protection</li>
+                                <li>Compliance control</li>
+                                <li>Brand protection</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Entry Mode Comparison</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Entry Mode</th>
+                            <th>Control</th>
+                            <th>Risk</th>
+                            <th>Fit for Smart Tech</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>WFOE</strong></td>
+                            <td>100%</td>
+                            <td>High</td>
+                            <td>✓ Optimal</td>
+                        </tr>
+                        <tr>
+                            <td>Joint Venture</td>
+                            <td>50-70%</td>
+                            <td>Medium</td>
+                            <td>✗ Risk of IP leakage</td>
+                        </tr>
+                        <tr>
+                            <td>Strategic Alliance</td>
+                            <td>Low</td>
+                            <td>Low</td>
+                            <td>✗ Insufficient control</td>
+                        </tr>
+                        <tr>
+                            <td>Master Partner</td>
+                            <td>Very Low</td>
+                            <td>Very Low</td>
+                            <td>✗ No brand protection</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">MES Model Components</h2>
+                <div class="chart-container large">
+                    <canvas id="mesChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 6 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('mesChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Importation', 'Warehousing', 'Marketing', 'Sales', 'After-Sales'],
+                    datasets: [{
+                        label: 'Service Value Chain',
+                        data: [8, 7, 6, 9, 8],
+                        backgroundColor: ['#2563eb', '#3b82f6', '#60a5fa', '#2563eb', '#1d4ed8']
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

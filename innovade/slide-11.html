@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Feasibility & Projections</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Financial Feasibility & Projections</h1>
+            <p class="slide-subtitle">Year 1-2 Financial Plan and Break-Even Analysis</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section">
+                <h2 class="section-title">Capital Requirements</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">$1.5-2M</div>
+                        <div class="stat-label">Total CAPEX</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">18-24</div>
+                        <div class="stat-label">Break-Even (Months)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">$2.5M</div>
+                        <div class="stat-label">Year 1 Revenue Target</div>
+                    </div>
+                </div>
+                <div class="text-content" style="margin-top: 20px;">
+                    <p><strong>CAPEX Breakdown:</strong> Estimated USD 1.5 - 2.0 Million covering:</p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Licensing and legal fees</li>
+                        <li>Office lease (HCMC District 1/3)</li>
+                        <li>Initial inventory</li>
+                        <li>ERP implementation</li>
+                        <li>Warehouse setup</li>
+                        <li>IT infrastructure</li>
+                    </ul>
+                    <p style="margin-top: 15px;"><strong>OPEX:</strong> High initial marketing and personnel costs. Investment in local team, partner development, and brand building.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Revenue Projections</h2>
+                <div class="text-content">
+                    <p><strong>Market Opportunity:</strong> Capture 0.5% of the Hardware Market in Year 1 (~$500M addressable market for niche distribution).</p>
+                    <p><strong>Year 1 Target:</strong> $2.5 Million revenue</p>
+                    <p><strong>Year 2 Target:</strong> $5.0 Million revenue (100% growth)</p>
+                    <p><strong>Break-Even:</strong> Expected by Month 18-24, assuming steady partner acquisition and market penetration.</p>
+                </div>
+                <div class="chart-container large" style="margin-top: 20px;">
+                    <canvas id="financialChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Revenue Streams</h2>
+                <div class="chart-container large">
+                    <canvas id="revenueChart"></canvas>
+                </div>
+                <div class="text-content" style="margin-top: 15px;">
+                    <p><strong>Primary:</strong> Hardware distribution (Servers, Storage, Networking) - 60%</p>
+                    <p><strong>Secondary:</strong> Software & Cloud Solutions - 25%</p>
+                    <p><strong>Tertiary:</strong> Services & Support - 15%</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 11 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const finCtx = document.getElementById('financialChart').getContext('2d');
+            new Chart(finCtx, {
+                type: 'line',
+                data: {
+                    labels: ['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8'],
+                    datasets: [{
+                        label: 'Revenue ($M)',
+                        data: [0.3, 0.5, 0.7, 1.0, 1.3, 1.7, 2.1, 2.5],
+                        borderColor: '#2563eb',
+                        backgroundColor: 'rgba(37, 99, 235, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }, {
+                        label: 'Cumulative Costs ($M)',
+                        data: [0.5, 1.0, 1.4, 1.7, 2.0, 2.2, 2.3, 2.4],
+                        borderColor: '#ef4444',
+                        backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: chartOptions
+            });
+            
+            const revCtx = document.getElementById('revenueChart').getContext('2d');
+            new Chart(revCtx, {
+                type: 'pie',
+                data: {
+                    labels: ['Hardware Distribution', 'Software & Cloud', 'Services & Support'],
+                    datasets: [{
+                        data: [60, 25, 15],
+                        backgroundColor: ['#2563eb', '#10b981', '#f59e0b']
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

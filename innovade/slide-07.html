@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licensing & Regulatory Roadmap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Licensing & Regulatory Roadmap</h1>
+            <p class="slide-subtitle">Step-by-Step Compliance Timeline for 2026-2027</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section full-width">
+                <h2 class="section-title">Regulatory Compliance Timeline</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Phase</th>
+                            <th>Milestone</th>
+                            <th>Key Actions & Requirements</th>
+                            <th>Timeline</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Phase 1</strong></td>
+                            <td>Pre-Licensing</td>
+                            <td>Secure registered office address (Virtual offices risky for trading licenses; physical office in District 1/3 HCMC or Cau Giay Hanoi recommended)</td>
+                            <td>Month 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Phase 2</strong></td>
+                            <td>Incorporation</td>
+                            <td>1. Apply for Investment Registration Certificate (IRC) from Department of Planning and Investment (DPI). Requires proof of financial capacity (Audited Financials from BD).<br>2. Apply for Enterprise Registration Certificate (ERC)</td>
+                            <td>Month 2-3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Phase 3</strong></td>
+                            <td>Trading License</td>
+                            <td>Obtain Trading License (Business License) from Department of Industry and Trade (DOIT) to engage in wholesale/retail distribution. Crucial: Ensure HS Codes for all ICT products (8471, 8517, etc.) are explicitly listed</td>
+                            <td>Month 4-6</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Phase 4</strong></td>
+                            <td>Operational Compliance</td>
+                            <td>1. Register for VAT and Electronic Invoice (E-invoice) systems<br>2. Comply with PDPL 2025: File Data Processing Impact Assessment (DPIA) with Ministry of Public Security</td>
+                            <td>Month 6-7</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Critical Compliance Requirements</h2>
+                <div class="highlight-box">
+                    <strong>PDPL 2025 Compliance:</strong> The Personal Data Protection Law requires data localization. Customer data (names, phone numbers for warranty) must be stored in Vietnam. Smart Tech must lease server space in a local Tier 3 data center (e.g., Viettel IDC).
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Cross-Border Data Transfer:</strong> Before transferring any sales data back to HQ in Dhaka or hubs in Singapore, a Cross-Border Transfer Impact Assessment (CTIA) must be filed with the Ministry of Public Security.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>DTI Law Benefits:</strong> The Law on Digital Technology Industry (effective January 1, 2026) provides tax breaks and streamlined procedures for digital technology enterprises, reducing compliance costs.
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Compliance Risk Mitigation</h2>
+                <ul class="bullet-list">
+                    <li>Partner with top-tier local law firm (e.g., Baker McKenzie Vietnam) to navigate IRC/ERC process</li>
+                    <li>Engage local compliance consultant for PDPL implementation</li>
+                    <li>Establish data center partnership with Viettel IDC or equivalent</li>
+                    <li>Develop internal compliance team with local expertise</li>
+                    <li>Regular audits and compliance reviews</li>
+                </ul>
+                <div class="chart-container medium" style="margin-top: 20px;">
+                    <canvas id="complianceChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 7 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('complianceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Month 1', 'Month 2', 'Month 3', 'Month 4', 'Month 5', 'Month 6', 'Month 7'],
+                    datasets: [{
+                        label: 'Compliance Progress %',
+                        data: [15, 30, 50, 65, 80, 90, 100],
+                        borderColor: '#2563eb',
+                        backgroundColor: 'rgba(37, 99, 235, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Mitigation & Conclusion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Risk Mitigation & Strategic Conclusion</h1>
+            <p class="slide-subtitle">Comprehensive Risk Management & Final Recommendations</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section">
+                <h2 class="section-title">Key Risk Categories</h2>
+                <div class="highlight-box">
+                    <strong>Currency Risk:</strong> The VND is relatively stable but not pegged. Mitigation: Use Smart Tech's Singapore hub to hedge currency exposure. Invoice SIs in VND but index critical large contracts to USD where legally permissible or use forward contracts.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Institutional Risk:</strong> Bureaucratic delays in licensing. Mitigation: Partner with top-tier local law firm (e.g., Baker McKenzie Vietnam) to navigate the IRC/ERC process. Budget for 6-7 months timeline.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Credit Risk:</strong> SIs defaulting on payments. Mitigation: Strict credit limits and utilization of bank guarantees for large orders. Implement progressive credit terms based on partner track record.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Grey Market Risk:</strong> Channel integrity threats. Mitigation: Comprehensive serialization, digital warranty system, and strict KYC processes as outlined in vendor assurance strategy.
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Risk Matrix</h2>
+                <div class="chart-container large">
+                    <canvas id="riskChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="content-section full-width">
+                <h2 class="section-title">Strategic Conclusion</h2>
+                <div class="text-content">
+                    <p><strong>Vietnam is not just a viable option but a strategic imperative for Smart Technologies (BD) Ltd.</strong> Its explosive growth, driven by the global manufacturing shift, creates a demand vacuum for professional, value-added ICT distribution that Smart Tech is uniquely qualified to fill. While Malaysia offers ease and the Philippines offers volume, Vietnam offers profitability and future-proofing.</p>
+                    <p><strong>Key Success Factors:</strong> By leveraging the 2026 DTI Law incentives, establishing a 100% foreign-owned entity, and applying a culturally intelligent "Market Expansion Services" model, Smart Technologies can replicate its Bangladeshi success on a larger, more dynamic stage. The move is bold, but for a company preparing for a post-LDC world, it is the necessary next step in its evolution from a national leader to a regional powerhouse.</p>
+                    <p><strong>Timeline:</strong> Market entry execution planned for 2026-2027, with full operational capability expected by Month 7 and break-even by Month 18-24. This positions Smart Tech to capitalize on Vietnam's continued growth trajectory and establish market leadership in the B2B ICT distribution segment.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 12 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('riskChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Low Risk',
+                        data: [
+                            {x: 2, y: 3}, {x: 3, y: 2}, {x: 2, y: 4}
+                        ],
+                        backgroundColor: '#10b981',
+                    }, {
+                        label: 'Medium Risk',
+                        data: [
+                            {x: 5, y: 6}, {x: 6, y: 5}, {x: 5, y: 7}
+                        ],
+                        backgroundColor: '#f59e0b',
+                    }, {
+                        label: 'High Risk',
+                        data: [
+                            {x: 8, y: 9}, {x: 9, y: 8}
+                        ],
+                        backgroundColor: '#ef4444',
+                    }]
+                },
+                options: {
+                    ...chartOptions,
+                    scales: {
+                        x: {
+                            title: {display: true, text: 'Probability (1-10)', color: '#334155'},
+                            min: 0,
+                            max: 10,
+                            ticks: { color: '#64748b' },
+                            grid: { color: '#e2e8f0' }
+                        },
+                        y: {
+                            title: {display: true, text: 'Impact (1-10)', color: '#334155'},
+                            min: 0,
+                            max: 10,
+                            ticks: { color: '#64748b' },
+                            grid: { color: '#e2e8f0' }
+                        }
+                    }
+                }
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>

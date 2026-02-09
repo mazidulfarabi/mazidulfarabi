@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Strategy: Channel & Product Mix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Commercial Strategy: Channel & Product Mix</h1>
+            <p class="slide-subtitle">B2B First Approach with Channel Partner Ecosystem</p>
+        </div>
+        
+        <div class="slide-content">
+            <div class="content-section">
+                <h2 class="section-title">Product Portfolio Strategy</h2>
+                <div class="highlight-box">
+                    <strong>Primary Focus (Hardware):</strong> Servers, Storage, and Networking (HPE, Dell EMC, Cisco). The target is the thousands of new manufacturing plants that need IT backbones. This aligns perfectly with Vietnam's manufacturing boom and FDI influx.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Secondary Focus (Software):</strong> Cloud and Security Solutions (Microsoft, VMware, Cybersecurity). With the new Cybersecurity Law 2026, demand for compliant security software will spike significantly.
+                </div>
+                <div class="highlight-box" style="margin-top: 15px;">
+                    <strong>Tertiary Focus (Niche Consumer):</strong> High-end gaming laptops or accessories where local availability is fragmented. This allows Smart Tech to capture premium margins without competing directly with Mobile World and FPT Shop.
+                </div>
+                <div class="text-content" style="margin-top: 15px;">
+                    <p><strong>Rationale:</strong> The consumer market (B2C) in Vietnam is heavily consolidated by giants like Mobile World and FPT Shop. Competing here on price is a race to the bottom. Smart Technologies should leverage its strength in Enterprise Solutions where value-added services create differentiation.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2 class="section-title">Channel Partner Ecosystem</h2>
+                <div class="text-content">
+                    <p><strong>Target Partners:</strong> Smart Tech must build a network of System Integrators (SIs) rather than just retailers. Target mid-sized SIs who are underserved by the massive distributors like FPT Synnex. These SIs service the SME and mid-market manufacturing sectors.</p>
+                    <p><strong>Smart Partner Program:</strong> Implement comprehensive partner program offering:</p>
+                </div>
+                <ul class="bullet-list">
+                    <li><strong>Credit:</strong> 30-45 day credit terms (backed by trade finance from Smart Tech's Singapore hub)</li>
+                    <li><strong>Training:</strong> Free technical certification training for SI engineers (leveraging Smart Tech's internal expertise)</li>
+                    <li><strong>Rebates:</strong> Backend rebates based on quarterly growth targets</li>
+                    <li><strong>Marketing Support:</strong> Co-marketing initiatives and lead generation</li>
+                    <li><strong>Technical Support:</strong> Pre-sales consultation and post-sales service</li>
+                </ul>
+            </div>
+            
+            <div class="content-section full-width">
+                <h2 class="section-title">Channel Strategy Visualization</h2>
+                <div class="chart-container large">
+                    <canvas id="channelChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">Slide 8 of 12</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function initSlideCharts() {
+            const ctx = document.getElementById('channelChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['System Integrators', 'Enterprise Direct', 'Government Contracts', 'Retail Partners', 'Online Channels'],
+                    datasets: [{
+                        data: [45, 25, 15, 10, 5],
+                        backgroundColor: ['#2563eb', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6']
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+        initSlideCharts();
+    </script>
+</body>
+</html>
