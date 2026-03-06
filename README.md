@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # <div align="center">**Md. Mazidul Haque Farabi**</div>
 
 <div align="center">
