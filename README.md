@@ -6,7 +6,7 @@
 
 <br>
 
-**Coding Since 2017 | 8 Long Years Has Taught Me to Be More & More Patient**
+**Coding Has Taught Me to Be More & More Patient**
 
 ---
 
