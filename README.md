@@ -852,12 +852,12 @@ Implemented foreign key constraints, transaction management, and thorough data v
 <details open>
 <summary><h2><strong>Badges</strong></h2></summary>
 
-| Skill Path | Badge |
+| Skill Path | Badge Verification |
 | :--- | :--- |
-| **AWS Introduction to Generative AI** | <a href="https://www.credly.com/earner/earned/badge/a0aa7bca-91d3-4d37-8eb9-836c66f47856"><img src="https://images.credly.com/size/110x110/images/69877717-380d-4581-9b16-9289569733a4/image.png" width="80" alt="Gen AI Badge"></a> |
-| **AWS Machine Learning Foundations** | <a href="https://www.credly.com/earner/earned/badge/e32966f9-a1fc-4f30-a29d-9172784e3c8c"><img src="https://images.credly.com/size/110x110/images/51984979-f759-49f0-8bb3-5310d364fdbe/image.png" width="80" alt="ML Badge"></a> |
-| **AWS Getting Started with Compute** | <a href="https://www.credly.com/earner/earned/badge/542a372d-33a3-4506-9d57-cc9be939ba18"><img src="https://images.credly.com/size/110x110/images/9358115e-ead7-47c2-91e2-165b6a650a1b/image.png" width="80" alt="Compute Badge"></a> |
-| **AWS Getting Started with Cloud Ops** | <a href="https://www.credly.com/earner/earned/badge/4640aea8-3aa6-4eec-b5ae-cd202e2743fc"><img src="https://images.credly.com/size/110x110/images/01c3b0d4-a225-483b-a762-460473658c1a/image.png" width="80" alt="Cloud Ops Badge"></a> |
+| **AWS Introduction to Generative AI** | [Verify Credential](https://www.credly.com/badges/a0aa7bca-91d3-4d37-8eb9-836c66f47856/public_url) |
+| **AWS Machine Learning Foundations** | [Verify Credential](https://www.credly.com/badges/e32966f9-a1fc-4f30-a29d-9172784e3c8c/public_url) |
+| **AWS Getting Started with Compute** | [Verify Credential](https://www.credly.com/badges/542a372d-33a3-4506-9d57-cc9be939ba18/public_url) |
+| **AWS Getting Started with Cloud Ops** | [Verify Credential](https://www.credly.com/badges/4640aea8-3aa6-4eec-b5ae-cd202e2743fc/public_url) |
 
 </details>
 
