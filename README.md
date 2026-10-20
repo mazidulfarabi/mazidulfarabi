@@ -880,12 +880,6 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 ---
 
-<div align="center">
-
-### **Visitor Counter**
-![Visitor Count](https://komarev.com/ghpvc/?username=mazidulfarabi&color=blue&style=for-the-badge)
-
----
 
 ### **Fun Fact**
 > *I write clean, scalable code and enjoy debugging as much as building.*  
