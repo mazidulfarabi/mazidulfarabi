@@ -95,7 +95,7 @@ const developer = {
 
 ---
 
-<details open>
+<details>
 <summary><h2><strong>Featured Projects</strong></h2></summary>
 
 <br>
@@ -112,7 +112,7 @@ const developer = {
 
 </div>
 
-<details open>
+<details>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
@@ -129,7 +129,7 @@ const developer = {
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Project Overview</strong></summary>
 
 <br>
@@ -154,7 +154,7 @@ const developer = {
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Architecture & Technology Stack</strong></summary>
 
 <div align="center">
@@ -190,7 +190,7 @@ const developer = {
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
@@ -355,7 +355,7 @@ const developer = {
 
 </div>
 
-<details open>
+<details>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
@@ -372,7 +372,7 @@ const developer = {
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Project Overview (P&C)</strong></summary>
 
 <br>
@@ -396,7 +396,7 @@ It functions as a complete internal social media solution with robust features, 
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
 <div align="center">
@@ -442,7 +442,7 @@ Created reusable UI elements such as cards, forms, dropdowns, and modals.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
@@ -650,7 +650,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 </div>
 
-<details open>
+<details>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
@@ -667,7 +667,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 </details>
 
-<details open>
+<details>
 <summary><strong>AI Intelligence Overview</strong></summary>
 
 <br>
