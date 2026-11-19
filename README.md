@@ -95,7 +95,7 @@ const developer = {
 
 ---
 
-<details>
+<details open>
 <summary><h2><strong>Featured Projects</strong></h2></summary>
 
 <br>
