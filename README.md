@@ -6,13 +6,12 @@
 
 <br>
 
-**Coding Since 2017 | 8 Long Years Has Taught Me to Be More & More Patient**
+**Coding Has Taught Me to Be More & More Patient**
 
 ---
 
 <br>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=mazidulfarabi&color=0e75b6&style=for-the-badge&v=1)](https://github.com/mazidulfarabi)
 [![Years Badge](https://badges.strrl.dev/years/mazidulfarabi?style=for-the-badge&color=blue&v=1)](https://github.com/mazidulfarabi)
 [![Repositories](https://badges.strrl.dev/repos/mazidulfarabi?style=for-the-badge&color=green&v=1)](https://github.com/mazidulfarabi)
 
@@ -92,27 +91,11 @@ const developer = {
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mazidulfarabi&theme=github_dark)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazidulfarabi&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="48%" />
-
 </div>
 
 ---
 
-<details open>
-<summary><h2><strong>Achievement Showcase</strong></h2></summary>
-
-
-<div align="center">
-
-![trophy](https://github-profile-trophy.vercel.app/?username=mazidulfarabi&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&title=Commits,Repositories,Experience&cache_seconds=60)
-
-</div>
-
-</details>
-
----
-
-<details open>
+<details>
 <summary><h2><strong>Featured Projects</strong></h2></summary>
 
 <br>
@@ -129,7 +112,7 @@ const developer = {
 
 </div>
 
-<details open>
+<details>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
@@ -146,7 +129,7 @@ const developer = {
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Project Overview</strong></summary>
 
 <br>
@@ -164,45 +147,50 @@ const developer = {
 | JavaScript (.js) | 70 | 4 files |
 
 **Architecture Components:**
-- **Django Backend** with extensive models, views, forms, and business logic
+- **Django Backend** with modular apps (accounts, jobs, freelancers, conversations, dashboard)
 - **Dynamic HTML Templates** with complex layouts and conditional rendering
-- **Minimal Custom Styling** using Bootstrap and Tailwind
-- **Lightweight JavaScript** to support client-side functionality
+- **Minimal Custom Styling** using Bootstrap + Tailwind
+- **Lightweight JavaScript** for client-side interactivity
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Architecture & Technology Stack</strong></summary>
 
 <div align="center">
-<img src="./mmd/kormo.svg" alt="Architechture Diagram" width="100%"/>
+<img src="./mmd/kormo.svg" alt="Architecture Diagram" width="100%"/>
 </div>
 
 <br>
 
 ### **Backend Framework**
-- Django 5.2.4 – Main web framework
-- Python – Programming language
-- SQLite – Lightweight database (development mode)
-- Django ORM – ORM for database abstraction
+- Django 5.2.4 – Web framework  
+- Python – Programming language  
+- **PostgreSQL** – Production database  
+- Django ORM – ORM for database abstraction  
+- **Redis** – Caching, sessions, rate-limiting, and background tasks  
 
 ### **Frontend Technologies**
-- Bootstrap 5.3.0 – CSS framework
-- Tailwind CSS – Utility-first styling
-- Font Awesome 6.7.2 – Icon library
-- Vanilla JavaScript – Lightweight client scripting
+- Bootstrap 5.3.0 – CSS framework  
+- Tailwind CSS – Utility-first styling  
+- Font Awesome 6.7.2 – Icon library  
+- Vanilla JavaScript – Lightweight client scripting  
 
 ### **Third-Party Integrations**
-- `django-allauth` – Authentication and user management
-- Google OAuth 2.0 – Social login
-- `django-recaptcha` & `django-simple-captcha` – Form protection
-- Pillow – Image handling and validation
-- PyJWT – Token-based authentication
-- Brevo SMTP – Email delivery service
+- `django-allauth` – Authentication and user management  
+- Google OAuth 2.0 – Social login  
+- `django-recaptcha` & `django-simple-captcha` – Form protection  
+- Pillow – Image handling and validation  
+- PyJWT – Token-based authentication  
+- Brevo SMTP – Email delivery service  
+
+### **Async & Real-Time**
+- **Django Channels** + Redis – Real-time chat & notifications  
+- **Celery + Redis** – Background task processing (emails, payments, analytics)  
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
@@ -216,11 +204,11 @@ const developer = {
 <br>
 
 ### **Core Models**
-- **User Management:** `accounts/models.py` – Custom user model, authentication, and profile data
-- **Job System:** `job/models.py` – Jobs, budgets, deadlines, and skill tags
-- **Freelancer System:** `freelancer/models.py` – Proposals, ratings, contracts
-- **Communication:** `conversation/models.py` – Messaging and conversations
-- **Dashboard:** `dashboard/models.py` – User dashboard metrics and status
+- **User Management:** `accounts/models.py` – Custom user model, authentication, profiles  
+- **Job System:** `job/models.py` – Jobs, budgets, deadlines, skills  
+- **Freelancer System:** `freelancer/models.py` – Proposals, ratings, contracts  
+- **Communication:** `conversation/models.py` – Messaging and conversations  
+- **Dashboard:** `dashboard/models.py` – Metrics and insights  
 
 </details>
 
@@ -229,20 +217,20 @@ const developer = {
 
 <br>
 
-### **Search & Filtering Algorithms**
-- Multi-criteria search using Django Q objects
-- Category, skill, rating, and budget-based filtering
-- Sorting by rating, date, budget, name, and proposal count
-- Paginated results (20 per page) with dynamic navigation
+### **Search & Filtering**
+- Multi-criteria search via Django Q objects  
+- Category, skill, rating, budget filtering  
+- Sorting (rating, date, budget, proposals)  
+- Paginated results (20 per page)  
 
-### **Rating Calculation Algorithm**
-- Aggregated multi-criteria review scores
-- Bi-directional review system (freelancer ↔ client)
+### **Rating System**
+- Aggregated multi-criteria review scores  
+- Bi-directional review (freelancer ↔ client)  
 
-### **File Processing Algorithms**
-- Image size/type/dimension validation
-- Audio file support and processing
-- PDF/document upload validation
+### **File Processing**
+- Image validation (size, type, dimensions)  
+- Audio file support (MP3, WAV, OGG, M4A)  
+- PDF/document validation  
 
 </details>
 
@@ -252,30 +240,29 @@ const developer = {
 <br>
 
 ### **Authentication & Authorization**
-- Email-based account activation and password reset
-- Social authentication (Google OAuth 2.0)
-- JWT support for secure session handling
+- Email-based activation & password reset  
+- Google OAuth 2.0 login  
+- JWT-secured sessions  
 
 ### **Session & Token Management**
-- Secure sessions with expiration
-- Remember me functionality
-- CSRF token on every form
+- Redis-backed secure sessions  
+- Session expiration & remember-me  
+- CSRF protection  
 
 ### **Input Validation**
-- File type, size, and dimension validation
-- Audio format restrictions (MP3, WAV, OGG, M4A)
-- URL validation with regex and protocol/domain checks
-- reCAPTCHA and CAPTCHA integrations
+- File type, size, dimension checks  
+- URL validation with regex  
+- reCAPTCHA and CAPTCHA protection  
 
 ### **Rate Limiting & Protection**
-- Max 5 failed login attempts/day
-- Account lockout mechanisms
-- XSS, CSRF, and clickjacking protection
+- Redis-backed login attempt throttling (max 5/day)  
+- Account lockout  
+- XSS, CSRF, and clickjacking protection  
 
 ### **Data Protection**
-- Strong password policies and validators
-- TLS encryption for email
-- Secure SMTP and email verification
+- Strong password policies  
+- TLS-encrypted emails  
+- Secure SMTP integration  
 
 </details>
 
@@ -285,17 +272,17 @@ const developer = {
 <br>
 
 ### **Supported Languages**
-- English (en)
-- Russian (ru)
-- Simplified Chinese (zh-Hans)
-- French (fr)
-- Spanish (es)
-- Bangla (bn)
+- English (en)  
+- Russian (ru)  
+- Simplified Chinese (zh-Hans)  
+- French (fr)  
+- Spanish (es)  
+- Bangla (bn)  
 
-### **Localization Features**
-- Timezone support (Asia/Dhaka)
-- Localized currency/date/time formatting
-- Translation-ready message system
+### **Features**
+- Timezone-aware (Asia/Dhaka)  
+- Localized currency/date/time formatting  
+- Translation-ready system  
 
 </details>
 
@@ -304,21 +291,20 @@ const developer = {
 
 <br>
 
-### **Real-time Features**
-- Message read/unread tracking
-- Real-time chat updates
-- Delivery status tracking
+### **Real-time**
+- Chat with read receipts, delivery tracking  
+- WebSocket-powered live updates  
 
 ### **Responsive Design**
-- Mobile-first layout
-- Bootstrap grid + Tailwind utility classes
-- Progressive enhancement for compatibility
+- Mobile-first  
+- Bootstrap grid + Tailwind utilities  
 
-### **Performance Optimizations**
-- `select_related` query optimization
-- Pagination for heavy views
-- Image and static file optimization
-- CDN integration for external assets
+### **Performance**
+- Query optimizations with `select_related`  
+- Redis caching for heavy queries  
+- Paginated views  
+- Optimized static/media files  
+- CDN-backed assets  
 
 </details>
 
@@ -327,34 +313,32 @@ const developer = {
 
 <br>
 
-### **Freelancing Platform Features**
+### **Job Management**
+- Post jobs (title, description, deadline, budget)  
+- Budget range: 300–9999 BDT  
+- Skill-tagging & deadline enforcement  
 
-**Job Management**
-- Job posting with title, description, deadline, and budget
-- Budget range: 300–9999 BDT
-- Skill-tagging and deadline enforcement
+### **Proposal System**
+- Freelancers submit proposals with cover letters  
+- Clients shortlist, message, and track proposals  
 
-**Proposal System**
-- Freelancers submit proposals with cover letters
-- Clients can shortlist, message, and track proposal status
+### **Contract Management**
+- Digital contract acceptance  
+- Milestone-based payments  
 
-**Contract Management**
-- Digital contract acceptance system
-- Payment milestone tracking and status updates
+### **Payment System**
+- **bKash integration** (transaction verification)  
+- Refunds + platform fee deductions  
+- Secure fund flow  
 
-**Payment System**
-- bKash integration with transaction verification
-- Refunds and platform fee deductions
-- Secure and transparent fund flow
+### **Review System**
+- Ratings from both clients & freelancers  
+- Multi-criteria aggregation  
 
-**Review System**
-- Client and freelancer rating submission
-- Aggregated scores with multiple criteria
-
-**Subscription Plans**
-- Free, Member, and Pro plans
-- Feature-based access control
-- Expiration and renewal handling with payment verification
+### **Subscription Plans**
+- Free, Member, Pro tiers  
+- Feature-based access control  
+- Renewal & expiration handling  
 
 </details>
 
@@ -371,7 +355,7 @@ const developer = {
 
 </div>
 
-<details open>
+<details>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
@@ -388,7 +372,7 @@ const developer = {
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Project Overview (P&C)</strong></summary>
 
 <br>
@@ -412,7 +396,7 @@ It functions as a complete internal social media solution with robust features, 
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Technical Architecture & Implementation</strong></summary>
 
 <div align="center">
@@ -458,7 +442,7 @@ Created reusable UI elements such as cards, forms, dropdowns, and modals.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Database Schema (DBML)</strong></summary>
 <br>
 <div align="center">
@@ -666,7 +650,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 </div>
 
-<details open>
+<details>
 <summary><strong>App Screenshots</strong></summary>
 
 <br>
@@ -683,7 +667,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 </details>
 
-<details open>
+<details>
 <summary><strong>AI Intelligence Overview</strong></summary>
 
 <br>
@@ -787,7 +771,7 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 ---
 
-<details>
+<details open>
 <summary><h2><strong>Certifications</strong></h2></summary>
 
 <br>
@@ -867,12 +851,12 @@ Implemented foreign key constraints, transaction management, and thorough data v
 <details open>
 <summary><h2><strong>Badges</strong></h2></summary>
 
-| Skill Path                               | Badge                                                                                      |
-|------------------------------------------|--------------------------------------------------------------------------------------------|
-| AWS Introduction to Generative AI        | [<img src="https://images.credly.com/size/110x110/images/4b68a030-53d0-414b-be57-b1837bc3b3e6/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/a0aa7bca-91d3-4d37-8eb9-836c66f47856) |
-| AWS Machine Learning Foundations         | [<img src="https://images.credly.com/size/110x110/images/51984979-f759-49f0-8bb3-5310d364fdbe/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/e32966f9-a1fc-4f30-a29d-9172784e3c8c) |
-| AWS Getting Started with Compute         | [<img src="https://images.credly.com/size/110x110/images/9358115e-ead7-47c2-91e2-165b6a650a1b/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/542a372d-33a3-4506-9d57-cc9be939ba18) |
-| AWS Getting Started with Cloud Ops       | [<img src="https://images.credly.com/size/110x110/images/01c3b0d4-a225-483b-a762-460473658c1a/image.png" width="80"/>](https://www.credly.com/earner/earned/badge/4640aea8-3aa6-4eec-b5ae-cd202e2743fc) |
+| Skill Path | Badge Verification |
+| :--- | :--- |
+| **AWS Introduction to Generative AI** | [Verify Credential](https://www.credly.com/badges/a0aa7bca-91d3-4d37-8eb9-836c66f47856/public_url) |
+| **AWS Machine Learning Foundations** | [Verify Credential](https://www.credly.com/badges/e32966f9-a1fc-4f30-a29d-9172784e3c8c/public_url) |
+| **AWS Getting Started with Compute** | [Verify Credential](https://www.credly.com/badges/542a372d-33a3-4506-9d57-cc9be939ba18/public_url) |
+| **AWS Getting Started with Cloud Ops** | [Verify Credential](https://www.credly.com/badges/4640aea8-3aa6-4eec-b5ae-cd202e2743fc/public_url) |
 
 </details>
 
@@ -896,12 +880,6 @@ Implemented foreign key constraints, transaction management, and thorough data v
 
 ---
 
-<div align="center">
-
-### **Visitor Counter**
-![Visitor Count](https://komarev.com/ghpvc/?username=mazidulfarabi&color=blue&style=for-the-badge)
-
----
 
 ### **Fun Fact**
 > *I write clean, scalable code and enjoy debugging as much as building.*  
